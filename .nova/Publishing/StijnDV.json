@@ -1,0 +1,12 @@
+{
+  "identifier" : "4DBC0886-06A7-4F4F-B794-2FE284D5545F",
+  "ignoredFilePatterns" : [
+    ".DS_Store",
+    "css\/.DS_Store",
+    "BingSiteAuth.xml"
+  ],
+  "remotePath" : "\/domains\/stijndv.com\/public_html",
+  "remoteURL" : "https:\/\/stijndv.com\/",
+  "server" : "StijnDV",
+  "usesPublishing" : true
+}

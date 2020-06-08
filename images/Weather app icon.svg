@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="314px" viewBox="0 0 314 314" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 61.1 (89639) - https://sketch.com -->
+    <title>Weather app icon</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0.633769133%" id="linearGradient-1">
+            <stop stop-color="#53BCF3" offset="0%"></stop>
+            <stop stop-color="#4B69FF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-2">
+            <stop stop-color="#FEF57C" offset="0%"></stop>
+            <stop stop-color="#FDFEC2" offset="0.372348112%"></stop>
+            <stop stop-color="#FCF897" offset="20.5907175%"></stop>
+            <stop stop-color="#FEE652" offset="48.2039224%"></stop>
+            <stop stop-color="#FED022" offset="74.3050749%"></stop>
+            <stop stop-color="#FD9800" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-3" cx="156.8" cy="156.8" r="100.352"></circle>
+        <filter x="-50.8%" y="-50.8%" width="201.6%" height="201.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="34" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.996078431   0 0 0 0 0.737254902   0 0 0 0 0.0862745098  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="21.1492667%" y1="34.4574835%" x2="83.7970592%" y2="74.1176616%" id="linearGradient-5">
+            <stop stop-color="#FEF9DC" offset="0%"></stop>
+            <stop stop-color="#FCF3D6" offset="48.9569126%"></stop>
+            <stop stop-color="#E2EEF5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M278.949013,209.193205 C278.949013,199.861323 276.278585,191.153153 271.660218,183.791182 C263.195331,170.297614 248.186479,161.326505 231.082313,161.326505 C228.131582,161.326505 225.24321,161.593499 222.44004,162.104647 C215.565615,141.634127 196.223584,126.887225 173.437229,126.887225 C144.944258,126.887225 121.836832,149.945486 121.757173,178.419786 C104.320443,182.708849 91.387211,198.448362 91.387211,217.208593 C91.387211,238.496785 108.040815,255.895319 129.030721,257.086894 L232.391247,257.152 C258.222152,256.348867 278.949013,235.191545 278.949013,209.193205 Z" id="path-6"></path>
+        <filter x="-16.8%" y="-24.2%" width="133.6%" height="148.4%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Weather-app-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M204.265973,0 C235.7488,0 251.486293,0 268.43376,5.35733333 C286.93616,12.0918933 301.508107,26.66384 308.242667,45.16624 C313.6,62.1110933 313.6,77.8538133 313.6,109.334027 L313.6,204.265973 C313.6,235.7488 313.6,251.486293 308.242667,268.43376 C301.508107,286.93616 286.93616,301.508107 268.43376,308.240053 C251.486293,313.6 235.7488,313.6 204.265973,313.6 L109.334027,313.6 C77.8512,313.6 62.1110933,313.6 45.16624,308.240053 C26.66384,301.508107 12.0918933,286.93616 5.35733333,268.43376 C0,251.486293 0,235.7488 0,204.265973 L0,109.334027 C0,77.8538133 0,62.1110933 5.35733333,45.16624 C12.0918933,26.66384 26.66384,12.0918933 45.16624,5.35733333 C62.1110933,0 77.8512,0 109.334027,0 L204.265973,0 Z" id="Background" fill="url(#linearGradient-1)"></path>
+            <g id="Oval-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#radialGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+            </g>
+        </g>
+    </g>
+</svg>
