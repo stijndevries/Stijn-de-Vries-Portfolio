@@ -1,273 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Stijn de Vries's Portfolio</title>
+    <meta name="referrer" content="no-referrer-when-downgrade" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>Stijn de Vries's Portfolio</title>
-  <meta name="referrer" content="no-referrer-when-downgrade">
+    <link as="style" rel="preload" href="/scss/style.css" />
+    <link
+      rel="preload"
+      href="https://stijndv.com/scss/fonts/EuclidCircularB-Medium-WebS.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://stijndv.com/scss/fonts/EuclidCircularB-Bold-WebS.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://stijndv.com/scss/fonts/EuclidCircularB-Regular-WebS.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
 
-  <link as="style" rel="preload" href="/scss/style.css">
-  <link rel="preload" href="https://stijndv.com/scss/fonts/EuclidCircularB-Medium-WebS.woff2" as="font"
-    type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="https://stijndv.com/scss/fonts/EuclidCircularB-Bold-WebS.woff2" as="font" type="font/woff2"
-    crossorigin="anonymous">
-  <link rel="preload" href="https://stijndv.com/scss/fonts/EuclidCircularB-Regular-WebS.woff2" as="font"
-    type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/scss/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
 
-  <link rel="stylesheet" href="/scss/style.css">
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://stijndv.com/stijn-favicon.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/svg+xml"
+      href="https://stijndv.com/images/sdv-orange.svg"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://stijndv.com/stijn-touch-icon.png"
+    />
+    <link
+      rel="mask-icon"
+      href="https://stijndv.com/images/sdv-logo-2.svg"
+      color="rgb(255,147,0)"
+    />
 
-  <link rel="shortcut icon" type="image/png" href="https://stijndv.com/stijn-favicon.png">
-  <link rel="shortcut icon" type="image/svg+xml" href="https://stijndv.com/images/sdv-orange.svg">
-  <link rel="apple-touch-icon" href="https://stijndv.com/stijn-touch-icon.png">
-  <link rel="mask-icon" href="https://stijndv.com/images/sdv-logo-2.svg" color="rgb(255,147,0)">
+    <meta
+      name="description"
+      content="Design Portfolio of Stijn de Vries. I'm a designer with experience in the Design and Marketing industry"
+    />
+    <meta
+      name="keywords"
+      content="Stijn de Vries, @StijnDV, Design, Portfolio, Stijn, SDV"
+    />
+    <meta name="author" content="Stijn de Vries, mail@stijndv.com" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@StijnDV" />
+    <meta name="twitter:creator" content="@StijnDV" />
+    <meta property="og:title" content="Stijn de Vries Design Portfolio" />
+    <meta
+      property="og:description"
+      content="Design Portfolio of Stijn de Vries. I'm a designer with experience in the Design and Marketing industry."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Stijn de Vries Portfolio" />
+    <meta property="og:url" content="https://stijndv.com" />
+    <meta
+      property="og:image"
+      content="https://stijndv.com/StijnDV-Open-Graph.png"
+    />
+    <meta name="robots" content="index,follow" />
 
-  <meta name="description"
-    content="Design Portfolio of Stijn de Vries. I'm a designer with experience in the Design and Marketing industry">
-  <meta name="keywords" content="Stijn de Vries, @StijnDV, Design, Portfolio, Stijn, SDV">
-  <meta name="author" content="Stijn de Vries, mail@stijndv.com">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@StijnDV">
-  <meta name="twitter:creator" content="@StijnDV">
-  <meta property="og:title" content="Stijn de Vries Design Portfolio">
-  <meta property="og:description"
-    content="Design Portfolio of Stijn de Vries. I'm a designer with experience in the Design and Marketing industry.">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Stijn de Vries Portfolio">
-  <meta property="og:url" content="https://stijndv.com">
-  <meta property="og:image" content="https://stijndv.com/StijnDV-Open-Graph.png">
-  <meta name="robots" content="index,follow" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@id": "https://stijndv.com",
+        "@type": "ProfessionalService",
+        "url": "https://stijndv.com",
+        "name": "Stijn de Vries",
+        "description": "Designer",
+        "image": "https://stijndv.com/share/lb-image-0.jpg"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "email": "mailto:mail@stijndv.com",
+        "jobTitle": "Designer",
+        "name": "Stijn de Vries",
+        "url": "https://stijndv.com",
+        "worksFor": "https://spitch.nl"
+      }
+    </script>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  </head>
 
-  <script type="application/ld+json">
-    {"@context":     "http://schema.org",
-      "@id":         "https://stijndv.com",
-      "@type":       "ProfessionalService",
-      "url":         "https://stijndv.com",
-      "name":        "Stijn de Vries",
-      "description": "Designer",
-      "image":       "https://stijndv.com/share/lb-image-0.jpg"}
-  </script>
-  <script type="application/ld+json">
-    {"@context":  "http://schema.org",
-      "@type":    "Person",
-      "email":    "mailto:mail@stijndv.com",
-      "jobTitle": "Designer",
-      "name":     "Stijn de Vries",
-      "url":      "https://stijndv.com",
-      "worksFor": "https://spitch.nl"}
-  </script>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-</head>
-
-<body itemscope itemtype="http://schema.org/Person">
-  <!-- Main content -->
-  <main>
-    <nav style="box-sizing: border-box;">
-      <div style="max-width: 800px;" id="header-box">
-        <a itemprop="url" href="https://stijndv.com" class="page-logo">
-          <div itemprop="logo">
-          <svg role="img" aria-label="Stijn de Vries Logo" width="70px" height="111px">
-            <defs>
-              <lineargradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
-                <stop offset="0%" stop-color="#FF9F4C">
-                  <animate attributename="stop-color" values="#FF9300; #FF5858; #FF9300;" dur="2s"
-                    repeatcount="indefinite">
-                  </animate>
-                </stop>
-                <stop offset="100%" stop-color="#FF9F4C">
-                  <animate attributename="stop-color" values="#FF9300; rgb(244, 200, 77); #FF9300;" dur="5s"
-                    repeatcount="indefinite">
-                  </animate>
-                </stop>
-              </lineargradient>
-            </defs>
-            <g>
-              <path fill="url('#logo-gradient')"
-                d="M42.1 0L42.5 0C57.5 0.2 69.5 12.4 69.5 27.5L69.5 27.5 69.5 83.4 69.5 83.8C69.3 98.8 57.1 110.8 42.1 110.8L42.1 110.8 27.5 110.8 27 110.8C12.1 110.6 0 98.4 0 83.4L0 83.4 0 27.5 0 27C0.2 12.1 12.4 0 27.5 0L27.5 0 42.1 0ZM40.6 14.5L29.1 14.5C24.3 14.5 20.6 15.7 18.1 18.2 15.6 20.8 14.3 24.4 14.3 29.2L14.3 56.2 41.4 65.1 41.4 78.8C41.4 81.5 40 82.9 37.3 82.9L32.4 82.9C29.6 82.9 28.3 81.5 28.3 78.8L28.2 69.2 14.3 65.1 14.3 81.6C14.3 86.4 15.6 90.1 18.1 92.6 20.6 95.1 24.3 96.4 29.1 96.4L40.6 96.4C45.4 96.4 49.1 95.1 51.6 92.6 54.1 90.1 55.3 86.5 55.3 81.6L55.3 55 28.3 46.2 28.3 32.1C28.3 30.8 28.6 29.8 29.3 29 30 28.3 31.1 28 32.4 28L37.3 28C40 28 41.4 29.3 41.4 32.1L41.4 41.7 55.3 46.2 55.3 29.2C55.3 24.4 54.1 20.7 51.6 18.2 49.1 15.7 45.4 14.5 40.6 14.5Z">
-              </path>
-            </g>
-          </svg>
+  <body itemscope itemtype="http://schema.org/Person">
+    <!-- Main content -->
+    <main>
+      <nav style="box-sizing: border-box;">
+        <div style="max-width: 800px;" id="header-box">
+          <a itemprop="url" href="https://stijndv.com" class="page-logo">
+            <div itemprop="logo">
+              <svg
+                role="img"
+                aria-label="Stijn de Vries Logo"
+                width="70px"
+                height="111px"
+              >
+                <defs>
+                  <lineargradient
+                    id="logo-gradient"
+                    x1="50%"
+                    y1="0%"
+                    x2="50%"
+                    y2="100%"
+                  >
+                    <stop offset="0%" stop-color="#FF9F4C">
+                      <animate
+                        attributename="stop-color"
+                        values="#FF9300; #FF5858; #FF9300;"
+                        dur="2s"
+                        repeatcount="indefinite"
+                      ></animate>
+                    </stop>
+                    <stop offset="100%" stop-color="#FF9F4C">
+                      <animate
+                        attributename="stop-color"
+                        values="#FF9300; rgb(244, 200, 77); #FF9300;"
+                        dur="5s"
+                        repeatcount="indefinite"
+                      ></animate>
+                    </stop>
+                  </lineargradient>
+                </defs>
+                <g>
+                  <path
+                    fill="url('#logo-gradient')"
+                    d="M42.1 0L42.5 0C57.5 0.2 69.5 12.4 69.5 27.5L69.5 27.5 69.5 83.4 69.5 83.8C69.3 98.8 57.1 110.8 42.1 110.8L42.1 110.8 27.5 110.8 27 110.8C12.1 110.6 0 98.4 0 83.4L0 83.4 0 27.5 0 27C0.2 12.1 12.4 0 27.5 0L27.5 0 42.1 0ZM40.6 14.5L29.1 14.5C24.3 14.5 20.6 15.7 18.1 18.2 15.6 20.8 14.3 24.4 14.3 29.2L14.3 56.2 41.4 65.1 41.4 78.8C41.4 81.5 40 82.9 37.3 82.9L32.4 82.9C29.6 82.9 28.3 81.5 28.3 78.8L28.2 69.2 14.3 65.1 14.3 81.6C14.3 86.4 15.6 90.1 18.1 92.6 20.6 95.1 24.3 96.4 29.1 96.4L40.6 96.4C45.4 96.4 49.1 95.1 51.6 92.6 54.1 90.1 55.3 86.5 55.3 81.6L55.3 55 28.3 46.2 28.3 32.1C28.3 30.8 28.6 29.8 29.3 29 30 28.3 31.1 28 32.4 28L37.3 28C40 28 41.4 29.3 41.4 32.1L41.4 41.7 55.3 46.2 55.3 29.2C55.3 24.4 54.1 20.7 51.6 18.2 49.1 15.7 45.4 14.5 40.6 14.5Z"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </a>
+          <div id="navigation">
+            <a class="nav-item" href="//stijndv.com/article/lines/">
+              <span>Lines Case</span>
+            </a>
+            <p class="nav-item">|</p>
+            <a class="nav-item" href="/about">
+              <span>About</span>
+            </a>
           </div>
-        </a>
-        <div id="navigation">
-          <a class="nav-item" href="//stijndv.com/article/lines/">
-            <span>Lines Case</span>
-          </a>
-          <p class="nav-item">|</p>
-          <a class="nav-item" href="/about">
-            <span>About</span>
-          </a>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Welcome Section -->
-    <h1 class="welcome">Hi there, I'm <span itemprop="name">Stijn</span>.</h1>
-    <p class="welcomeText">
-      I am a Business Media Design student at
-      <a href="https://han.nl" class="han" rel="nofollow noopener" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 30 30">
-          <title> HAN-University Logo</title>
-          <g fill="none">
-            <polygon points="30 11.2 1.8 20.4 0 14.8 28.2 5.6" fill="#e50056" />
-          </g>
-        </svg>
-        HAN University
-      </a>, currently doing an internship at
-      <a href="https://appythings.nl" class="appythings" rel="nofollow noopener" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 26">
-          <style>
-            .a {
-              fill: #D5361F;
-            }
-          </style>
-          <title> AppyThings Logo</title>
-          <g fill="none">
-            <path
-              d="M15.4 6.2C15.3 8.3 15.4 9.8 15.7 10.7 16.3 12 17 12.8 17.6 14.4 17.9 15.4 18 17.2 18 19.6 16.4 18.4 15.3 17.4 14.7 16.7 14.1 16 13.2 15.1 11.9 13.9 13.3 11.3 14.2 9.3 14.6 8.1 15 6.8 15.2 6.2 15.4 6.2Z"
-              fill="#B51615" />
-            <path d="M12.2 14.2C13.2 12.2 13.8 10.7 14.2 9.5 14.6 8.3 15.2 6.7 16 4.8L11.1 8.1 12.2 14.2Z"
-              fill="#A92119" />
-            <path
-              d="M19.4 21.1C19.4 21.6 18.7 22.4 17.3 23.4 16.2 24 15.3 24.6 14.5 25.3 13.8 26 12.8 26.1 11.5 25.8 11.2 21.8 11.1 19.7 11.1 19.6 11.2 17.8 11.5 15.9 12 13.9 13.6 15 14.9 16 16 17.1 17.6 18.7 19.4 20.4 19.4 21.1Z"
-              class="a" />
-            <path
-              d="M9.5 0.1C10.7 0.5 11.7 1 12.5 1.4 13.6 2 15.8 3.1 16.1 4.2 16.3 4.9 14.9 6.3 12.1 8.3 11.1 8.2 10.3 7.6 9.9 6.4 9.5 5.2 9.4 3.1 9.5 0.1Z"
-              fill="#A22E29" />
-            <path
-              d="M2.6 8.3C3.6 7.2 4.7 5.9 5.9 4.6 7.8 2.5 8.2 0.1 9.3 0.1 10.5 0.1 11.1 2.6 11.1 4 11.1 4.9 10.9 5.7 10.5 6.5L2.6 8.3Z"
-              fill="#D7413A" />
-            <path
-              d="M1.1 18.6L6.8 19.8 9.7 22.3C9 22.8 8.1 23.4 7.1 23.9 6.5 24.2 6 24.5 5.3 24.7L5.3 24.7C4.6 25.1 3.6 24.8 3.2 24 2.6 23 2.1 22.2 1.9 21.5 1.5 20.6 1.2 19.6 1.1 18.6Z"
-              fill="#D05C61" />
-            <path
-              d="M0.2 17.5C0.7 18.2 1.1 18.6 1.4 18.8 1.9 19.2 2.6 19.4 3.6 19.8 4.2 20 5.3 20.2 6.9 20.3 5.9 18.6 5.2 17.3 4.6 16.5 4.1 15.7 3.4 15 2.6 14.4 1.8 15 1.3 15.4 1 15.7 0.8 16 0.6 16.3 0.2 16.6L0.2 16.6C0 16.9 0 17.3 0.2 17.5Z"
-              class="a" />
-            <path d="M5.7 24.6C8.6 25.4 10.3 25.8 10.8 25.8 11.3 25.9 11.6 25.9 11.6 25.9L11.6 25.3 9.7 22.3 5.7 24.6Z"
-              fill="#A92D2C" />
-            <path
-              d="M1.1 10.2C0.9 11.1 1.4 12.5 2.6 14.4 4.2 17 5.4 18.7 6.1 19.6 7.3 20.9 7.9 20.8 9.2 22.2 10.1 23.2 10.9 24.4 11.6 25.8 11.7 19.8 11.9 15.9 12.2 14.2 12.7 11.5 12.6 8.8 12.2 8.2 11.8 7.7 11.2 7.7 10.8 6.9 10.7 6.5 10.8 6 10.9 5.2 11 5.1 11 4.8 11.1 4.4 9.4 5.4 8.1 6.1 7.3 6.5 6 7.2 5 7.2 4 7.5 2.9 7.7 1.5 8.8 1.1 10.2Z"
-              fill="#D01711" />
-          </g>
-        </svg>
-        AppyThings
-      </a>.
-    </p>
-    <p itemprop="description" class="welcomeText">
-      I'm a designer with experience in the Design and Marketing industry.
-      I currently work at
-      <a href="https://spitch.nl" class="spitch" rel="nofollow noopener" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewbox="0 0 30 30">
-          <title> sPitch Logo</title>
-          <g fill="none">
-            <path
-              d="M2 14.9C2.6 16.1 3.4 16.7 4.4 16.7 6 16.8 6.9 16 7.4 15.7 7.7 15.5 9.5 13.7 12.7 10.5L16.8 6.4C19.4 3.8 23.6 3.8 26.2 6.4 28.8 9 28.8 13.2 26.2 15.7L19.2 22.7C17.4 24.5 16.6 25 15.6 25.3 14.5 25.6 13.5 25.6 12.5 25.3 11.5 25 10.6 24.5 8.8 22.7L4.6 18.6 4.4 18.4 3.5 17.4C1.3 15.2 1.2 11.6 3.5 9.4 3.5 9.4 3.5 9.4 3.5 9.4 5.7 7.2 9.3 7.2 11.6 9.4L12.7 10.5C9.5 13.7 7.7 15.5 7.4 15.7 6.9 16 6 16.8 4.4 16.7 3.4 16.7 2.6 16.1 2 14.9Z"
-              style="stroke-width:3;stroke:#A9C257" />
-          </g>
-        </svg>
-        sPitch online marketing </a> as <span itemprop="jobTitle">Service Designer</span>.
-    </p>
-
-    <!-- Contact List -->
-    <ul class="social-list">
-      <li class="mail">
-        <a href="mailto:stijn9@me.com" rel="noopener" target="_blank">
-          <svg width="33" height="33" version="1.1" viewbox="0 0 26 26" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink">
-            <path
-              d="M16,20l-9.44356e-08,-1.43672e-11c-2.21024,-0.000336299 -4.00173,-1.79237 -4.00139,-4.00261c2.81176e-05,-0.184796 0.0128559,-0.369368 0.0383911,-0.552391c0.142,-1.051 0.747,-2.011 1.601,-2.641c1.79,-1.32 3.934,-0.902 5.224,0.436l1.55252e-08,1.65004e-08c0.0898164,0.0954579 0.139261,0.221937 0.138,0.353v2.407c0,0.734 0.083,1.411 0.229,2.035l-8.10261e-09,-3.25871e-08c0.0365259,0.1469 0.00453565,0.302439 -0.087,0.423l-9.63346e-08,1.23187e-07c-0.75649,0.967351 -1.91399,1.53542 -3.142,1.542m0,-16c-6.62,-8.38018e-10 -12,5.38 -12,12c0,6.62 5.38,12 12,12c2.5,0 4.88,-0.75 6.87,-2.18c0.45,-0.32 0.55,-0.94 0.23,-1.39l-3.57617e-08,-5.01822e-08c-0.318595,-0.447064 -0.939284,-0.551209 -1.38635,-0.232614c-0.0012191,0.000868776 -0.00243623,0.0017403 -0.00365139,0.00261458c-1.65,1.18 -3.63,1.8 -5.71,1.8c-5.51,0 -10,-4.49 -10,-10c0,-5.51 4.49,-10 10,-10c5.51,0 10,4.49 10,10c0,2.43 -0.98,4 -2.5,4c-1.52,0 -2.5,-1.57 -2.5,-4v-5c0,-0.55 -0.45,-1 -1,-1l3.90838e-08,-4.23707e-10c-0.485154,0.00525955 -0.895006,0.36134 -0.968,0.841l2.41761e-07,1.43985e-07c-0.917318,-0.546326 -1.96433,-0.836739 -3.032,-0.841c-3.31,0 -6,2.69 -6,6c0,3.31 2.69,6 6,6l1.34229e-07,-3.31443e-10c1.57117,-0.00387962 3.07784,-0.625225 4.195,-1.73c0.791,1.095 1.93,1.73 3.305,1.73c2.69,0 4.5,-2.41 4.5,-6c0,-6.62 -5.38,-12 -12,-12"
-              transform="scale(0.8125)" fill="#FFF"></path>
-          </svg>
-          <p class="social-text">Email</p>
-        </a>
-      </li>
-
-      <li class="twitter">
-        <a href="https://twitter.com/stijndv" rel="nofollow noopener" target="_blank">
-          <svg alt="Twitter logo" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 101 101">
-            <title> twitter-icon</title>
+      <!-- Welcome Section -->
+      <h1 class="welcome">Hi there, I'm <span itemprop="name">Stijn</span>.</h1>
+      <p class="welcomeText">
+        I am a Business Media Design student at
+        <a
+          href="https://han.nl"
+          class="han"
+          rel="nofollow noopener"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewbox="0 0 30 30"
+          >
+            <title>HAN-University Logo</title>
             <g fill="none">
-              <path
-                d="M31.9 91.8C69.9 91.8 90.9 59.9 90.9 32.9L90.9 30C94.9 27.2 98.2 23.6 101 19.1 97 21.1 92.9 22 88.9 22.8 93.3 19.9 97 15.9 98.2 11 94.1 13.5 89.7 15.1 85.2 16.3 79 9.1 68.6 7.1 60.1 11.5 51.6 15.9 47.3 25.6 49.7 34.9 33.1 34.1 17.4 26.4 6.9 13.5 1.4 22.9 4.3 34.9 13.3 40.9 10.1 40.9 6.9 40.1 4 38.5 4 48.6 10.9 57.1 20.6 58.7 17.8 59.9 14.5 59.9 11.3 59.5 14.1 67.6 21.8 73.7 30.7 73.7 22.1 80.6 11 83.8 0 82.6 9.3 88.6 20.2 91.8 31.9 91.8"
-                fill="#FFF" />
+              <polygon
+                points="30 11.2 1.8 20.4 0 14.8 28.2 5.6"
+                fill="#e50056"
+              />
             </g>
           </svg>
-          <p class="social-text">Twitter</p>
-        </a>
-      </li>
-
-      <li class="dribbble">
-        <a href="https://dribbble.com/StijnDV" rel="nofollow noopener" target="_blank">
-          <svg alt="Dribbble logo" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 101 101">
-            <title> dribbble-icon</title>
+          HAN University </a
+        >, currently doing an internship at
+        <a
+          href="https://appythings.nl"
+          class="appythings"
+          rel="nofollow noopener"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="19"
+            height="20"
+            viewBox="0 0 19 26"
+          >
+            <style>
+              .a {
+                fill: #d5361f;
+              }
+            </style>
+            <title>AppyThings Logo</title>
             <g fill="none">
               <path
-                d="M0.5 50.5C0.5 41.4 2.7 33.1 7.2 25.4 11.7 17.7 17.7 11.7 25.4 7.2 33.1 2.7 41.4 0.5 50.5 0.5 59.6 0.5 67.9 2.7 75.6 7.2 83.3 11.7 89.3 17.7 93.8 25.4 98.3 33.1 100.5 41.4 100.5 50.5 100.5 59.6 98.3 67.9 93.8 75.6 89.3 83.3 83.3 89.3 75.6 93.8 67.9 98.3 59.6 100.5 50.5 100.5 41.4 100.5 33.1 98.3 25.4 93.8 17.7 89.3 11.7 83.3 7.2 75.6 2.7 67.9 0.5 59.6 0.5 50.5ZM8.8 50.5C8.8 60.9 12.3 70.1 19.3 78 22.5 71.7 27.6 65.8 34.5 60.1 41.4 54.4 48.2 50.9 54.8 49.4 53.8 47.1 52.8 45 51.9 43.1 40.4 46.8 28 48.6 14.7 48.6 12.1 48.6 10.2 48.6 8.9 48.5 8.9 48.8 8.9 49.1 8.9 49.5 8.8 49.9 8.8 50.2 8.8 50.5ZM10.1 40.2C11.6 40.3 13.7 40.4 16.6 40.4 27.7 40.4 38.3 38.9 48.3 35.9 43.2 26.9 37.7 19.4 31.6 13.4 26.3 16.1 21.8 19.8 18.1 24.5 14.3 29.2 11.6 34.5 10.1 40.2ZM25 83.4C32.5 89.3 41 92.2 50.5 92.2 55.4 92.2 60.3 91.3 65.2 89.4 63.9 78 61.3 67 57.4 56.3 51.3 57.6 45.1 61 38.9 66.4 32.6 71.8 28 77.5 25 83.4ZM40.3 10.2C46.2 16.3 51.6 23.8 56.6 32.9 65.7 29.1 72.5 24.3 77.1 18.4 69.4 12 60.5 8.8 50.5 8.8 47.1 8.8 43.7 9.3 40.3 10.2ZM60.2 40C61.2 42.1 62.3 44.8 63.6 48.1 68.5 47.6 73.9 47.4 79.7 47.4 83.8 47.4 87.9 47.5 92 47.7 91.5 38.6 88.2 30.6 82.2 23.5 77.9 30 70.5 35.5 60.2 40ZM66.1 55.1C69.5 65 71.8 75.1 73 85.5 78.3 82.1 82.6 77.7 85.9 72.4 89.2 67.1 91.2 61.3 91.9 55.1 87 54.8 82.6 54.6 78.6 54.6 74.9 54.6 70.8 54.8 66.1 55.1Z"
-                fill="#FFF" />
+                d="M15.4 6.2C15.3 8.3 15.4 9.8 15.7 10.7 16.3 12 17 12.8 17.6 14.4 17.9 15.4 18 17.2 18 19.6 16.4 18.4 15.3 17.4 14.7 16.7 14.1 16 13.2 15.1 11.9 13.9 13.3 11.3 14.2 9.3 14.6 8.1 15 6.8 15.2 6.2 15.4 6.2Z"
+                fill="#B51615"
+              />
+              <path
+                d="M12.2 14.2C13.2 12.2 13.8 10.7 14.2 9.5 14.6 8.3 15.2 6.7 16 4.8L11.1 8.1 12.2 14.2Z"
+                fill="#A92119"
+              />
+              <path
+                d="M19.4 21.1C19.4 21.6 18.7 22.4 17.3 23.4 16.2 24 15.3 24.6 14.5 25.3 13.8 26 12.8 26.1 11.5 25.8 11.2 21.8 11.1 19.7 11.1 19.6 11.2 17.8 11.5 15.9 12 13.9 13.6 15 14.9 16 16 17.1 17.6 18.7 19.4 20.4 19.4 21.1Z"
+                class="a"
+              />
+              <path
+                d="M9.5 0.1C10.7 0.5 11.7 1 12.5 1.4 13.6 2 15.8 3.1 16.1 4.2 16.3 4.9 14.9 6.3 12.1 8.3 11.1 8.2 10.3 7.6 9.9 6.4 9.5 5.2 9.4 3.1 9.5 0.1Z"
+                fill="#A22E29"
+              />
+              <path
+                d="M2.6 8.3C3.6 7.2 4.7 5.9 5.9 4.6 7.8 2.5 8.2 0.1 9.3 0.1 10.5 0.1 11.1 2.6 11.1 4 11.1 4.9 10.9 5.7 10.5 6.5L2.6 8.3Z"
+                fill="#D7413A"
+              />
+              <path
+                d="M1.1 18.6L6.8 19.8 9.7 22.3C9 22.8 8.1 23.4 7.1 23.9 6.5 24.2 6 24.5 5.3 24.7L5.3 24.7C4.6 25.1 3.6 24.8 3.2 24 2.6 23 2.1 22.2 1.9 21.5 1.5 20.6 1.2 19.6 1.1 18.6Z"
+                fill="#D05C61"
+              />
+              <path
+                d="M0.2 17.5C0.7 18.2 1.1 18.6 1.4 18.8 1.9 19.2 2.6 19.4 3.6 19.8 4.2 20 5.3 20.2 6.9 20.3 5.9 18.6 5.2 17.3 4.6 16.5 4.1 15.7 3.4 15 2.6 14.4 1.8 15 1.3 15.4 1 15.7 0.8 16 0.6 16.3 0.2 16.6L0.2 16.6C0 16.9 0 17.3 0.2 17.5Z"
+                class="a"
+              />
+              <path
+                d="M5.7 24.6C8.6 25.4 10.3 25.8 10.8 25.8 11.3 25.9 11.6 25.9 11.6 25.9L11.6 25.3 9.7 22.3 5.7 24.6Z"
+                fill="#A92D2C"
+              />
+              <path
+                d="M1.1 10.2C0.9 11.1 1.4 12.5 2.6 14.4 4.2 17 5.4 18.7 6.1 19.6 7.3 20.9 7.9 20.8 9.2 22.2 10.1 23.2 10.9 24.4 11.6 25.8 11.7 19.8 11.9 15.9 12.2 14.2 12.7 11.5 12.6 8.8 12.2 8.2 11.8 7.7 11.2 7.7 10.8 6.9 10.7 6.5 10.8 6 10.9 5.2 11 5.1 11 4.8 11.1 4.4 9.4 5.4 8.1 6.1 7.3 6.5 6 7.2 5 7.2 4 7.5 2.9 7.7 1.5 8.8 1.1 10.2Z"
+                fill="#D01711"
+              />
             </g>
           </svg>
-          <p class="social-text">Dribbble</p>
-        </a>
-      </li>
-    </ul>
-  </main>
-
-  <section style="width: 100%;">
-    <h2>My work</h2>
-    <!-- Article List -->
-    <article class="article-3">
-      <a class="lines" href="/article/lines/">
-        <img src="images/lines-logo.svg" loading="eager" alt="Lines logo" width="180"
-          style="padding-top: 18px;padding-bottom: 18px;">
-        <h3>Lines Logo</h3>
-        <p>
-          Brand design and website for a marketing company
-          <span class="case-link">
-            Read the case <svg class="arrow" width="26px" height="26px" version="1.1" viewbox="0 0 10 10"
-              xmlns="http://www.w3.org/2000/svg">
+          AppyThings </a
+        >.
+      </p>
+      <p itemprop="description" class="welcomeText">
+        I'm a designer with experience in the Design and Marketing industry. I
+        currently work at
+        <a
+          href="https://spitch.nl"
+          class="spitch"
+          rel="nofollow noopener"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="22"
+            viewbox="0 0 30 30"
+          >
+            <title>sPitch Logo</title>
+            <g fill="none">
               <path
-                d="M26.448,14.705l-6.721,-6.427l-9.64747e-09,-9.19803e-09c-0.342382,-0.326432 -0.865822,-0.370537 -1.258,-0.106l1.14714e-07,-7.75527e-08c-0.461565,0.312043 -0.58327,0.938913 -0.272,1.401l3.074,4.572l-15.323,0.851l-3.08043e-08,9.72538e-10c-0.554218,0.0174975 -0.989315,0.480964 -0.971818,1.03518c0.0167215,0.529639 0.442179,0.955096 0.971818,0.971818l15.323,0.851l-3.074,4.572l6.17851e-09,-8.93271e-09c-0.31637,0.457399 -0.202044,1.08466 0.255355,1.40103c0.395662,0.273669 0.929639,0.229249 1.27465,-0.106033l6.72,-6.427l-2.59869e-08,2.48761e-08c0.714933,-0.684373 0.739706,-1.81873 0.0553335,-2.53367c-0.0180395,-0.018845 -0.0364884,-0.0372939 -0.0553334,-0.0553334"
-                transform="scale(0.3125)" fill="#FFF"></path>
+                d="M2 14.9C2.6 16.1 3.4 16.7 4.4 16.7 6 16.8 6.9 16 7.4 15.7 7.7 15.5 9.5 13.7 12.7 10.5L16.8 6.4C19.4 3.8 23.6 3.8 26.2 6.4 28.8 9 28.8 13.2 26.2 15.7L19.2 22.7C17.4 24.5 16.6 25 15.6 25.3 14.5 25.6 13.5 25.6 12.5 25.3 11.5 25 10.6 24.5 8.8 22.7L4.6 18.6 4.4 18.4 3.5 17.4C1.3 15.2 1.2 11.6 3.5 9.4 3.5 9.4 3.5 9.4 3.5 9.4 5.7 7.2 9.3 7.2 11.6 9.4L12.7 10.5C9.5 13.7 7.7 15.5 7.4 15.7 6.9 16 6 16.8 4.4 16.7 3.4 16.7 2.6 16.1 2 14.9Z"
+                style="stroke-width:3;stroke:#A9C257"
+              />
+            </g>
+          </svg>
+          sPitch online marketing
+        </a>
+        as <span itemprop="jobTitle">Service Designer</span>.
+      </p>
+
+      <!-- Contact List -->
+      <ul class="social-list">
+        <li class="mail">
+          <a href="mailto:stijn9@me.com" rel="noopener" target="_blank">
+            <svg
+              width="33"
+              height="33"
+              version="1.1"
+              viewbox="0 0 26 26"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                d="M16,20l-9.44356e-08,-1.43672e-11c-2.21024,-0.000336299 -4.00173,-1.79237 -4.00139,-4.00261c2.81176e-05,-0.184796 0.0128559,-0.369368 0.0383911,-0.552391c0.142,-1.051 0.747,-2.011 1.601,-2.641c1.79,-1.32 3.934,-0.902 5.224,0.436l1.55252e-08,1.65004e-08c0.0898164,0.0954579 0.139261,0.221937 0.138,0.353v2.407c0,0.734 0.083,1.411 0.229,2.035l-8.10261e-09,-3.25871e-08c0.0365259,0.1469 0.00453565,0.302439 -0.087,0.423l-9.63346e-08,1.23187e-07c-0.75649,0.967351 -1.91399,1.53542 -3.142,1.542m0,-16c-6.62,-8.38018e-10 -12,5.38 -12,12c0,6.62 5.38,12 12,12c2.5,0 4.88,-0.75 6.87,-2.18c0.45,-0.32 0.55,-0.94 0.23,-1.39l-3.57617e-08,-5.01822e-08c-0.318595,-0.447064 -0.939284,-0.551209 -1.38635,-0.232614c-0.0012191,0.000868776 -0.00243623,0.0017403 -0.00365139,0.00261458c-1.65,1.18 -3.63,1.8 -5.71,1.8c-5.51,0 -10,-4.49 -10,-10c0,-5.51 4.49,-10 10,-10c5.51,0 10,4.49 10,10c0,2.43 -0.98,4 -2.5,4c-1.52,0 -2.5,-1.57 -2.5,-4v-5c0,-0.55 -0.45,-1 -1,-1l3.90838e-08,-4.23707e-10c-0.485154,0.00525955 -0.895006,0.36134 -0.968,0.841l2.41761e-07,1.43985e-07c-0.917318,-0.546326 -1.96433,-0.836739 -3.032,-0.841c-3.31,0 -6,2.69 -6,6c0,3.31 2.69,6 6,6l1.34229e-07,-3.31443e-10c1.57117,-0.00387962 3.07784,-0.625225 4.195,-1.73c0.791,1.095 1.93,1.73 3.305,1.73c2.69,0 4.5,-2.41 4.5,-6c0,-6.62 -5.38,-12 -12,-12"
+                transform="scale(0.8125)"
+                fill="#FFF"
+              ></path>
             </svg>
-          </span>
-        </p>
-      </a>
-    </article>
+            <p class="social-text">Email</p>
+          </a>
+        </li>
 
-    <article class="article-4">
-      <a class="sinister" href="" target="_blank">
-        <img src="images/sinister-industries-logo.svg" loading="eager" alt="Sinister Industries monogram" height="94">
-        <h3>Sinister Industries Logo</h3>
-        <p>
-          A logo for Sinister Industries
-          <span>stijndv.com</span>
-        </p>
-      </a>
-    </article>
-    <article class="article-2">
-      <a class="ah" href="">
-        <img src="images/ah-to-go-logo.svg" loading="lazy" alt="AH to go logo redesign" height="90">
-        <h3>AH to go Logo</h3>
-        <p>
-          Fictional redesign of the AH to go logo
-          <span>stijndv.com</span>
-        </p>
-      </a>
-    </article>
-    <article class="article-1">
-      <a class="spitch-article" href="https://spitch.nl" rel="nofollow noopener" target="_blank">
-        <img src="images/spitch-online-marketing-logo-design.svg" loading="lazy"
-          alt="sPitch online marketing logo redesign" width="280">
-        <h3>sPitch Logo</h3>
-        <p>
-          Logo redesign for a marketing agency
-          <span>spitch.nl</span>
-        </p>
-      </a>
-    </article>
+        <li class="twitter">
+          <a
+            href="https://twitter.com/stijndv"
+            rel="nofollow noopener"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewbox="0 0 101 101"
+            >
+              <title>twitter-icon</title>
+              <g fill="none">
+                <path
+                  d="M31.9 91.8C69.9 91.8 90.9 59.9 90.9 32.9L90.9 30C94.9 27.2 98.2 23.6 101 19.1 97 21.1 92.9 22 88.9 22.8 93.3 19.9 97 15.9 98.2 11 94.1 13.5 89.7 15.1 85.2 16.3 79 9.1 68.6 7.1 60.1 11.5 51.6 15.9 47.3 25.6 49.7 34.9 33.1 34.1 17.4 26.4 6.9 13.5 1.4 22.9 4.3 34.9 13.3 40.9 10.1 40.9 6.9 40.1 4 38.5 4 48.6 10.9 57.1 20.6 58.7 17.8 59.9 14.5 59.9 11.3 59.5 14.1 67.6 21.8 73.7 30.7 73.7 22.1 80.6 11 83.8 0 82.6 9.3 88.6 20.2 91.8 31.9 91.8"
+                  fill="#FFF"
+                />
+              </g>
+            </svg>
+            <p class="social-text">Twitter</p>
+          </a>
+        </li>
 
-    <!-- <article class="article-5">
+        <li class="dribbble">
+          <a
+            href="https://dribbble.com/StijnDV"
+            rel="nofollow noopener"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewbox="0 0 101 101"
+            >
+              <title>dribbble-icon</title>
+              <g fill="none">
+                <path
+                  d="M0.5 50.5C0.5 41.4 2.7 33.1 7.2 25.4 11.7 17.7 17.7 11.7 25.4 7.2 33.1 2.7 41.4 0.5 50.5 0.5 59.6 0.5 67.9 2.7 75.6 7.2 83.3 11.7 89.3 17.7 93.8 25.4 98.3 33.1 100.5 41.4 100.5 50.5 100.5 59.6 98.3 67.9 93.8 75.6 89.3 83.3 83.3 89.3 75.6 93.8 67.9 98.3 59.6 100.5 50.5 100.5 41.4 100.5 33.1 98.3 25.4 93.8 17.7 89.3 11.7 83.3 7.2 75.6 2.7 67.9 0.5 59.6 0.5 50.5ZM8.8 50.5C8.8 60.9 12.3 70.1 19.3 78 22.5 71.7 27.6 65.8 34.5 60.1 41.4 54.4 48.2 50.9 54.8 49.4 53.8 47.1 52.8 45 51.9 43.1 40.4 46.8 28 48.6 14.7 48.6 12.1 48.6 10.2 48.6 8.9 48.5 8.9 48.8 8.9 49.1 8.9 49.5 8.8 49.9 8.8 50.2 8.8 50.5ZM10.1 40.2C11.6 40.3 13.7 40.4 16.6 40.4 27.7 40.4 38.3 38.9 48.3 35.9 43.2 26.9 37.7 19.4 31.6 13.4 26.3 16.1 21.8 19.8 18.1 24.5 14.3 29.2 11.6 34.5 10.1 40.2ZM25 83.4C32.5 89.3 41 92.2 50.5 92.2 55.4 92.2 60.3 91.3 65.2 89.4 63.9 78 61.3 67 57.4 56.3 51.3 57.6 45.1 61 38.9 66.4 32.6 71.8 28 77.5 25 83.4ZM40.3 10.2C46.2 16.3 51.6 23.8 56.6 32.9 65.7 29.1 72.5 24.3 77.1 18.4 69.4 12 60.5 8.8 50.5 8.8 47.1 8.8 43.7 9.3 40.3 10.2ZM60.2 40C61.2 42.1 62.3 44.8 63.6 48.1 68.5 47.6 73.9 47.4 79.7 47.4 83.8 47.4 87.9 47.5 92 47.7 91.5 38.6 88.2 30.6 82.2 23.5 77.9 30 70.5 35.5 60.2 40ZM66.1 55.1C69.5 65 71.8 75.1 73 85.5 78.3 82.1 82.6 77.7 85.9 72.4 89.2 67.1 91.2 61.3 91.9 55.1 87 54.8 82.6 54.6 78.6 54.6 74.9 54.6 70.8 54.8 66.1 55.1Z"
+                  fill="#FFF"
+                />
+              </g>
+            </svg>
+            <p class="social-text">Dribbble</p>
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <section style="width: 100%;">
+      <h2>My work</h2>
+      <!-- Article List -->
+      <article class="article-3">
+        <a class="lines" href="/article/lines/">
+          <img
+            src="images/lines-logo.svg"
+            loading="eager"
+            alt="Lines logo"
+            width="180"
+            style="padding-top: 18px;padding-bottom: 18px;"
+          />
+          <h3>Lines Logo</h3>
+          <p>
+            Brand design and website for a marketing company
+            <span class="case-link">
+              Read the case
+              <svg
+                class="arrow"
+                width="26px"
+                height="26px"
+                version="1.1"
+                viewbox="0 0 10 10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M26.448,14.705l-6.721,-6.427l-9.64747e-09,-9.19803e-09c-0.342382,-0.326432 -0.865822,-0.370537 -1.258,-0.106l1.14714e-07,-7.75527e-08c-0.461565,0.312043 -0.58327,0.938913 -0.272,1.401l3.074,4.572l-15.323,0.851l-3.08043e-08,9.72538e-10c-0.554218,0.0174975 -0.989315,0.480964 -0.971818,1.03518c0.0167215,0.529639 0.442179,0.955096 0.971818,0.971818l15.323,0.851l-3.074,4.572l6.17851e-09,-8.93271e-09c-0.31637,0.457399 -0.202044,1.08466 0.255355,1.40103c0.395662,0.273669 0.929639,0.229249 1.27465,-0.106033l6.72,-6.427l-2.59869e-08,2.48761e-08c0.714933,-0.684373 0.739706,-1.81873 0.0553335,-2.53367c-0.0180395,-0.018845 -0.0364884,-0.0372939 -0.0553334,-0.0553334"
+                  transform="scale(0.3125)"
+                  fill="#FFF"
+                ></path>
+              </svg>
+            </span>
+          </p>
+        </a>
+      </article>
+
+      <article class="article-4">
+        <a class="sinister" href="" target="_blank">
+          <img
+            src="images/sinister-industries-logo.svg"
+            loading="eager"
+            alt="Sinister Industries monogram"
+            height="94"
+          />
+          <h3>Sinister Industries Logo</h3>
+          <p>
+            A logo for Sinister Industries
+            <span>stijndv.com</span>
+          </p>
+        </a>
+      </article>
+      <article class="article-2">
+        <a class="ah" href="">
+          <img
+            src="images/ah-to-go-logo.svg"
+            loading="lazy"
+            alt="AH to go logo redesign"
+            height="90"
+          />
+          <h3>AH to go Logo</h3>
+          <p>
+            Fictional redesign of the AH to go logo
+            <span>stijndv.com</span>
+          </p>
+        </a>
+      </article>
+      <article class="article-1">
+        <a
+          class="spitch-article"
+          href="https://spitch.nl"
+          rel="nofollow noopener"
+          target="_blank"
+        >
+          <img
+            src="images/spitch-online-marketing-logo-design.svg"
+            loading="lazy"
+            alt="sPitch online marketing logo redesign"
+            width="280"
+          />
+          <h3>sPitch Logo</h3>
+          <p>
+            Logo redesign for a marketing agency
+            <span>spitch.nl</span>
+          </p>
+        </a>
+      </article>
+
+      <!-- <article class="article-5">
       <a href="" target="_blank">
         <img src="images/Weather app icon.svg" width="94" height="94">
         <h3>Weather app</h3>
@@ -288,8 +460,6 @@
         </p>
       </a>
     </article> -->
-  </section>
-
-</body>
-
+    </section>
+  </body>
 </html>
