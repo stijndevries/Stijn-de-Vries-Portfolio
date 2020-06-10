@@ -1,234 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Flexbox Builder</title>
-    <meta name="referrer" content="no-referrer-when-downgrade" />
+	<head>
+		<meta charset="UTF-8" />
+		<title>Flexbox Builder</title>
+		<meta name="referrer" content="no-referrer-when-downgrade" />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
 
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,shrink-to-fit=no"
-    />
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="https://stijndv.com/stijn-favicon.png"
-    />
-    <link
-      rel="shortcut icon"
-      type="image/svg+xml"
-      href="https://stijndv.com/images/sdv-orange.svg"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="https://stijndv.com/stijn-touch-icon.png"
-    />
-    <link
-      rel="mask-icon"
-      href="https://stijndv.com/images/sdv-logo-2.svg"
-      color="rgb(255,147,0)"
-    />
+		<link rel="shortcut icon" type="image/png" href="https://stijndv.com/stijn-favicon.png" />
+		<link rel="shortcut icon" type="image/svg+xml" href="https://stijndv.com/images/sdv-orange.svg" />
+		<link rel="apple-touch-icon" href="https://stijndv.com/stijn-touch-icon.png" />
+		<link rel="mask-icon" href="https://stijndv.com/images/sdv-logo-2.svg" color="rgb(255,147,0)" />
 
-    <link rel="stylesheet" href="css/stylesheet.css" />
-  </head>
+		<link rel="stylesheet" href="css/stylesheet.css" />
+	</head>
 
-  <body>
-    <div class="gradient"></div>
+	<body>
+		<div class="gradient"></div>
 
-    <div class="container">
-      <main>
-        <header>
-          <h1>💪 Flex</h1>
-          <h2>A FlexBox Builder.</h2>
-          <p>
-            Fork of
-            <a href="https://github.com/jakehwll/flex">jakehwll's flex</a>.
-          </p>
-          <p>
-            Flexbox's are cool, but a pain in the dairy air to write. If you
-            don't understand the wonder's of flexbox &amp; want here
-            <span>oLdEr BrOWseRs</span>, then
+		<div class="container">
+			<main>
+				<header>
+					<h1>💪 Flex</h1>
+					<h2>A FlexBox Builder.</h2>
+					<p>
+						Fork of
+						<a href="https://github.com/jakehwll/flex">jakehwll's flex</a>.
+					</p>
+					<p>
+						Flexbox's are cool, but a pain in the dairy air to write. If you don't understand the wonder's of flexbox &amp; want here
+						<span>oLdEr BrOWseRs</span>, then
 
-            <a href="https://caniuse.com/#feat=flexbox">here's the door</a>.
-          </p>
+						<a href="https://caniuse.com/#feat=flexbox">here's the door</a>.
+					</p>
 
-          <p>
-            <!-- SPACING DIV -->
-          </p>
-        </header>
+					<p>
+						<!-- SPACING DIV -->
+					</p>
+				</header>
 
-        <section>
-          <div class="column">
-            <label for="items">Items.</label>
-            <input type="number" min="1" value="3" id="items" />
-          </div>
+				<section>
+					<div class="column">
+						<label for="items">Items.</label>
+						<input type="number" min="1" value="3" id="items" />
+					</div>
 
-          <div class="column">
-            <label for="items">Flex Type.</label>
-            <select id="display">
-              <option value="flex">Flex</option>
-              <option value="inline-flex">Inline Flex</option>
-            </select>
-          </div>
+					<div class="column">
+						<label for="items">Flex Type.</label>
+						<select id="display">
+							<option value="flex">Flex</option>
+							<option value="inline-flex">Inline Flex</option>
+						</select>
+					</div>
 
-          <div class="column">
-            <label for="items">Flex Direction.</label>
-            <select id="flex-direction">
-              <option value="row">Row</option>
-              <option value="row-reverse">Row Reverse</option>
-              <option value="column">Column</option>
-              <option value="column-reverse">Column Reverse</option>
-            </select>
-          </div>
-        </section>
+					<div class="column">
+						<label for="items">Flex Direction.</label>
+						<select id="flex-direction">
+							<option value="row">Row</option>
+							<option value="row-reverse">Row Reverse</option>
+							<option value="column">Column</option>
+							<option value="column-reverse">Column Reverse</option>
+						</select>
+					</div>
+				</section>
 
-        <section>
-          <div class="column">
-            <label for="items">Wrap.</label>
-            <select id="flex-wrap">
-              <option value="">No Wrap (default)</option>
-              <option value="wrap">Forwards Wrap</option>
-              <option value="wrap-reverse">Reverse Wrap </option>
-            </select>
-          </div>
+				<section>
+					<div class="column">
+						<label for="items">Wrap.</label>
+						<select id="flex-wrap">
+							<option value="">No Wrap (default)</option>
+							<option value="wrap">Forwards Wrap</option>
+							<option value="wrap-reverse">Reverse Wrap </option>
+						</select>
+					</div>
 
-          <div class="column">
-            <label for="items">Justify Content.</label>
-            <select id="justify-content">
-              <option value="flex-start">Flex Start (default)</option>
-              <option value="flex-end">Flex End</option>
-              <option value="center">Center</option>
-              <option value="space-between">Space Between</option>
-              <option value="space-around">Space Around</option>
-            </select>
-          </div>
+					<div class="column">
+						<label for="items">Justify Content.</label>
+						<select id="justify-content">
+							<option value="flex-start">Flex Start (default)</option>
+							<option value="flex-end">Flex End</option>
+							<option value="center">Center</option>
+							<option value="space-between">Space Between</option>
+							<option value="space-around">Space Around</option>
+						</select>
+					</div>
 
-          <div class="column">
-            <label for="items">Align Items.</label>
-            <select id="align-items">
-              <option value="">Stretch (default)</option>
-              <option value="flex-start">Flex Start</option>
-              <option value="flex-end">Flex End</option>
-              <option value="center">Center</option>
-              <option value="baseline">Baseline</option>
-            </select>
-          </div>
+					<div class="column">
+						<label for="items">Align Items.</label>
+						<select id="align-items">
+							<option value="">Stretch (default)</option>
+							<option value="flex-start">Flex Start</option>
+							<option value="flex-end">Flex End</option>
+							<option value="center">Center</option>
+							<option value="baseline">Baseline</option>
+						</select>
+					</div>
 
-          <div class="column">
-            <label for="items">Align Content.</label>
-            <select id="align-content">
-              <option value="">Stretch (default)</option>
-              <option value="flex-start">Flex Start</option>
-              <option value="flex-end">Flex End</option>
-              <option value="center">Center</option>
-              <option value="space-between">Space Between</option>
-              <option value="space-around">Space Around</option>
-            </select>
-          </div>
-        </section>
+					<div class="column">
+						<label for="items">Align Content.</label>
+						<select id="align-content">
+							<option value="">Stretch (default)</option>
+							<option value="flex-start">Flex Start</option>
+							<option value="flex-end">Flex End</option>
+							<option value="center">Center</option>
+							<option value="space-between">Space Between</option>
+							<option value="space-around">Space Around</option>
+						</select>
+					</div>
+				</section>
 
-        <footer>
-          <textarea id="output" readonly>display: flex;</textarea>
+				<footer>
+					<textarea id="output" readonly>display: flex;</textarea>
 
-          <div class="button">
-            Copy CSS.
-          </div>
-        </footer>
-      </main>
+					<div class="button">
+						Copy CSS.
+					</div>
+				</footer>
+			</main>
 
-      <aside>
-        <div class="item" id="1">1</div>
-        <div class="item" id="2">2</div>
-        <div class="item" id="3">3</div>
-      </aside>
-    </div>
-  </body>
-  <script src="../js/scripts/jquery-3.5.1.min.js"></script>
-  <script>
-    var clicking = false;
-    var position;
-    var scrollpos;
+			<aside>
+				<div class="item" id="1">1</div>
+				<div class="item" id="2">2</div>
+				<div class="item" id="3">3</div>
+			</aside>
+		</div>
+	</body>
+	<script src="../js/scripts/jquery-3.5.1.min.js"></script>
+	<script>
+		var clicking = false;
+		var position;
+		var scrollpos;
 
-    $(window).mousedown(function(e) {
-      clicking = true;
-      position = e.pageY;
-    });
+		$(window).mousedown(function(e) {
+		  clicking = true;
+		  position = e.pageY;
+		});
 
-    $(window).mouseup(function() {
-      clicking = false;
-    });
+		$(window).mouseup(function() {
+		  clicking = false;
+		});
 
-    $(window).mousemove(function(e) {
-      if (clicking == false) return;
-      scrollpos = $("main").scrollTop();
-      $("main").scrollTop(scrollpos + (e.pageY - position));
-    });
-  </script>
+		$(window).mousemove(function(e) {
+		  if (clicking == false) return;
+		  scrollpos = $("main").scrollTop();
+		  $("main").scrollTop(scrollpos + (e.pageY - position));
+		});
+	</script>
 
-  <script>
-    // FLEXBOX
+	<script>
+		// FLEXBOX
 
-    $(document).ready(function() {
-      // Make it flexbox.
-      $("aside").css("display", "flex");
-    });
+		$(document).ready(function() {
+		  // Make it flexbox.
+		  $("aside").css("display", "flex");
+		});
 
-    // ITEM VALUE AMOUNT
+		// ITEM VALUE AMOUNT
 
-    $("input").change(function() {
-      // Variablise Input
-      var i;
-      var amt = $("input").val();
+		$("input").change(function() {
+		  // Variablise Input
+		  var i;
+		  var amt = $("input").val();
 
-      // Set content to null.
-      $("aside").html("");
+		  // Set content to null.
+		  $("aside").html("");
 
-      // Loop through items.
-      for (i = 0; i < amt; i++) {
-        // Append an item for each.
-        $("aside").append(
-          '<div class="item" id="item-{i}">{i}</div>'.replace(/\{i\}/g, i + 1)
-        );
-      }
-    });
+		  // Loop through items.
+		  for (i = 0; i < amt; i++) {
+		    // Append an item for each.
+		    $("aside").append(
+		      '<div class="item" id="item-{i}">{i}</div>'.replace(/\{i\}/g, i + 1)
+		    );
+		  }
+		});
 
-    // CHANGE FLEXBOX VALUES
+		// CHANGE FLEXBOX VALUES
 
-    $("select").change(function() {
-      // Property and new value to chance `style` attribute to.
-      $property = $(this).attr("id");
-      $key = $(this).val();
+		$("select").change(function() {
+		  // Property and new value to chance `style` attribute to.
+		  $property = $(this).attr("id");
+		  $key = $(this).val();
 
-      // Change the `style` attribute to match.
-      $("aside").css($property, $key);
+		  // Change the `style` attribute to match.
+		  $("aside").css($property, $key);
 
-      // Set textarea output as style tag (stylised).
-      $("textarea").val(
-        $("aside")
-          .attr("style")
-          .replace("; ", ";\n")
-      );
-    });
+		  // Set textarea output as style tag (stylised).
+		  $("textarea").val(
+		    $("aside")
+		      .attr("style")
+		      .replace("; ", ";\n")
+		  );
+		});
 
-    // TEXTAREA HIGHLIGHTER
+		// TEXTAREA HIGHLIGHTER
 
-    $("textarea").click(function() {
-      $("textarea").select();
-    });
+		$("textarea").click(function() {
+		  $("textarea").select();
+		});
 
-    // SAVE-BUTTON
+		// SAVE-BUTTON
 
-    $(".button").click(function() {
-      $("textarea").select();
-      document.execCommand("copy");
-    });
-  </script>
+		$(".button").click(function() {
+		  $("textarea").select();
+		  document.execCommand("copy");
+		});
+	</script>
 </html>
