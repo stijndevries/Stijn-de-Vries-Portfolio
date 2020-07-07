@@ -20,8 +20,8 @@
             </feMerge>
         </filter>
         <linearGradient x1="41.0796439%" y1="0%" x2="58.9203561%" y2="100%" id="linearGradient-5">
-            <stop stop-color="#E66970" offset="0%"></stop>
-            <stop stop-color="#D2434E" offset="100%"></stop>
+            <stop stop-color="#F85F6C" offset="0%"></stop>
+            <stop stop-color="#E43249" offset="100%"></stop>
         </linearGradient>
         <rect id="path-6" x="244" y="543" width="117" height="277" rx="10"></rect>
         <filter x="-49.1%" y="-17.1%" width="217.1%" height="145.1%" filterUnits="objectBoundingBox" id="filter-7">
@@ -46,15 +46,15 @@
             <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
             <feOffset dx="16" dy="13" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
             <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.155054052 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0.999901831   0 0 0 0 1   0 0 0 0 0.999879897  0 0 0 0.155054052 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
             <feMerge>
                 <feMergeNode in="shadowMatrixInner1"></feMergeNode>
                 <feMergeNode in="shadowMatrixInner2"></feMergeNode>
             </feMerge>
         </filter>
         <linearGradient x1="46.3994508%" y1="0%" x2="53.6005492%" y2="100%" id="linearGradient-9">
-            <stop stop-color="#EEBE50" offset="0%"></stop>
-            <stop stop-color="#EE9539" offset="100%"></stop>
+            <stop stop-color="#F7BC31" offset="0%"></stop>
+            <stop stop-color="#FD900E" offset="100%"></stop>
         </linearGradient>
         <rect id="path-10" x="384" y="384" width="117" height="436" rx="10"></rect>
         <filter x="-49.1%" y="-10.9%" width="217.1%" height="128.7%" filterUnits="objectBoundingBox" id="filter-11">
@@ -86,8 +86,8 @@
             </feMerge>
         </filter>
         <linearGradient x1="48.1903629%" y1="0%" x2="51.8096371%" y2="100%" id="linearGradient-13">
-            <stop stop-color="#A0F680" offset="0%"></stop>
-            <stop stop-color="#65D548" offset="100%"></stop>
+            <stop stop-color="#9EF57F" offset="0%"></stop>
+            <stop stop-color="#19D822" offset="100%"></stop>
         </linearGradient>
         <rect id="path-14" x="524" y="205" width="117" height="615" rx="10"></rect>
         <filter x="-49.1%" y="-7.7%" width="217.1%" height="120.3%" filterUnits="objectBoundingBox" id="filter-15">
@@ -119,8 +119,8 @@
             </feMerge>
         </filter>
         <linearGradient x1="47.4881094%" y1="0%" x2="52.4113941%" y2="97.9995834%" id="linearGradient-17">
-            <stop stop-color="#6AD0F3" offset="0%"></stop>
-            <stop stop-color="#3272E9" offset="100%"></stop>
+            <stop stop-color="#34D3F7" offset="0%"></stop>
+            <stop stop-color="#0474F1" offset="100%"></stop>
         </linearGradient>
         <rect id="path-18" x="664" y="298" width="117" height="522" rx="10"></rect>
         <filter x="-49.1%" y="-9.1%" width="217.1%" height="123.9%" filterUnits="objectBoundingBox" id="filter-19">
@@ -160,7 +160,7 @@
             <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
             <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
         </g>
-        <g id="Group-5" mask="url(#mask-3)" stroke="#DAEFD7" stroke-width="11">
+        <g id="Group-5" mask="url(#mask-3)" stroke="#D5F0D5" stroke-width="11">
             <g transform="translate(98.000000, 97.000000)" id="Line-2">
                 <line x1="134.5" y1="0.5" x2="134.5" y2="828.5"></line>
                 <line x1="54.5" y1="0.5" x2="54.5" y2="828.5"></line>
