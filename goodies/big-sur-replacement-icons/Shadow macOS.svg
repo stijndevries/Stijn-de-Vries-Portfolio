@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shadow macOS</title>
+    <defs>
+        <radialGradient cx="16.6611637%" cy="4.69640226%" fx="16.6611637%" fy="4.69640226%" r="92.5873652%" id="radialGradient-1">
+            <stop stop-color="#353F42" offset="0%"></stop>
+            <stop stop-color="#0A0C0D" offset="100%"></stop>
+        </radialGradient>
+        <path d="M693.250332,100 C773.487019,100 802.58278,108.354305 831.916113,124.041943 C861.249447,139.729582 884.270418,162.750553 899.958057,192.083887 C915.645695,221.41722 924,250.512981 924,330.749668 L924,693.250332 C924,773.487019 915.645695,802.58278 899.958057,831.916113 C884.270418,861.249447 861.249447,884.270418 831.916113,899.958057 C802.58278,915.645695 773.487019,924 693.250332,924 L403.289477,924.001538 C444.811523,887.354277 471,833.735462 471,774 C471,663.54305 381.45695,574 271,574 C198.540073,574 135.080192,612.533776 99.9945287,670.227157 L100,330.749668 C100,250.512981 108.354305,221.41722 124.041943,192.083887 C139.729582,162.750553 162.750553,139.729582 192.083887,124.041943 C221.41722,108.354305 250.512981,100 330.749668,100 L693.250332,100 Z" id="path-2"></path>
+        <filter x="-4.5%" y="-3.5%" width="109.0%" height="109.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Shadow-macOS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <path stroke="#FFFFFF" stroke-width="30" d="M330.749668,115 L693.250332,115 C769.23906,115 797.005226,122.381802 824.84213,137.269141 C851.522772,151.538105 872.461895,172.477228 886.730859,199.15787 C901.618198,226.994774 909,254.76094 909,330.749668 L909,330.749668 L909,693.250332 C909,769.23906 901.618198,797.005226 886.730859,824.84213 C872.461895,851.522772 851.522772,872.461895 824.84213,886.730859 C797.005226,901.618198 769.23906,909 693.250252,909 L693.250252,909 L438.340915,909.001352 C468.150468,872.098005 486,825.133218 486,774 C486,714.629389 461.935305,660.879389 423.027958,621.972042 C384.120611,583.064695 330.370611,559 271,559 C209.579928,559 154.173215,584.753857 114.995241,626.055009 L114.995241,626.055009 L115,330.749668 C115,254.76094 122.381802,226.994774 137.269141,199.15787 C151.538105,172.477228 172.477228,151.538105 199.15787,137.269141 C226.994774,122.381802 254.76094,115 330.749668,115 L330.749668,115 Z" stroke-linejoin="square" fill="url(#radialGradient-1)" fill-rule="evenodd"></path>
+        </g>
+    </g>
+</svg>
