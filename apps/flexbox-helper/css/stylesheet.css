@@ -20,6 +20,13 @@
   font-style: normal;
   font-display: block;
 }
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("https://stijndv.com/scss/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
 * {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -93,7 +100,7 @@ textarea {
   margin: 2rem 0;
   font-size: 10pt;
   border-radius: 1rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: "JetBrainsMono", monospace;
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -154,10 +161,10 @@ a:hover::after {
   display: flex;
 }
 .container main {
-  width: calc(30vw - 6rem);
+  width: calc(36vw - 6rem);
   height: 100vh;
   margin: 0rem 1rem;
-  padding: 3rem;
+  padding: 1rem;
   overflow: scroll;
 }
 .container main::-webkit-scrollbar {
@@ -231,6 +238,44 @@ a:hover::after {
   text-align: center;
   line-height: 100px;
   font-size: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background: #1d1d1e;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .line-text {
+    color: #fff;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background: #1d1d1e;
+  }
+  body a {
+    color: #ffc342;
+  }
+
+  .gradient {
+    background-image: linear-gradient(#191919, rgba(0, 0, 0, 0));
+  }
+
+  .container aside {
+    background: #303030;
+  }
+
+  input, select {
+    background: #303030;
+    color: white;
+  }
+
+  .container main header:after {
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

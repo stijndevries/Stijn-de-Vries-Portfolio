@@ -9,10 +9,10 @@
   display: flex;
 
   main {
-    width: calc(30vw - 6rem);
+    width: calc(36vw - 6rem);
     height: 100vh;
     margin: 0rem 1rem;
-    padding: 3rem;
+    padding: 1rem;
     overflow: scroll;
     &::-webkit-scrollbar {
       display: none;
@@ -25,7 +25,7 @@
         text-transform: uppercase;
         font-size: 0.8rem;
         padding: 1rem 0;
-        margin: 0 1rem 0 0;
+        margin: 0 1rem 0 0;  
         font-weight: bold;
       }
     }
@@ -97,3 +97,37 @@
     }
   }
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background: #1d1d1e;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .line-text {
+    color: #fff;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background: #1d1d1e;
+    a{
+     color: #ffc342;
+    }
+  }
+  .gradient{
+    background-image: linear-gradient(#191919, rgba(0, 0, 0, 0));
+  }
+  .container aside{
+    background: #303030;
+  }
+  input, select {
+  background: #303030;;
+  color: white
+}
+.container main header:after{
+  color: white
+}
+}
+
