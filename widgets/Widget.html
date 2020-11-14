@@ -1,0 +1,88 @@
+<html>
+<head>
+
+    <title>Widget</title>
+    
+    <meta charset="UTF-8">
+	<meta name='description' content='iOS Widget'/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="apple-touch-icon-precomposed" href="img/icon.png"/>
+	
+    <link rel="stylesheet" href="./style.css"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            
+
+
+</head>
+
+
+<body ontouchstart="">
+
+<div id="center" class="center-meX">
+<div id="scene" class="scene scene-full">
+<div id="widget" class="widget-wrapperX panel spinnerX">
+
+<div class="store-wrapper">
+	
+	
+	
+<div class='day-title'>14<br/><span class='day-subtitle'>DAGEN</span></div>	
+<div class='date-text'>Apple Special Event<br/><span class='date-subtext'>13 oktober 2020, 19:00 uur</span></div>
+
+<div class='apple-logo'></div>
+
+
+<div class='item-picture'><img src="./img/apple-park.png" height="100%" width="auto";></div>
+<!--<div class='icon-store'></div>-->
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div id="reload" class='refresh'>
+	<span class='delivery-status'>
+	Last update: 29-09-2020, 11:56:31</span>
+	<br/><br/>
+	<a href="javascript:window.location.reload(true)"><button class="button button4">Reload widget</button></a> <a href="?dev=false"><button class="button button4">Turn off preview</button></a>
+</div>
+
+
+
+
+<script>
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const dev = urlParams.get('dev');
+const animate = urlParams.get('animate');
+
+if(dev=="true") document.getElementById('widget').classList.add("widget-wrapper");
+if(dev=="true") document.getElementById('center').classList.add("center-me");
+if(dev=="true") document.getElementById('reload').classList.add("nothidden");
+if(animate=="true" & dev=="true") document.getElementById('widget').classList.add("spinner");
+if(animate=="true" & dev=="true") document.getElementById('scene').classList.add("scene-small");
+if(dev=="true") document.getElementById('scene').classList.add("scene-small");
+
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2044578-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</body>
+
+</html>     

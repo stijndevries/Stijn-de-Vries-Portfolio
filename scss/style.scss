@@ -651,7 +651,19 @@ article {
   font-weight: 600;
 }
 
+.boksen {
+  justify-content: space-evenly;
+  background-color: #1ABA43;
+  -webkit-box-shadow: 0 7px 19px 0 #1ABA4346;
+  box-shadow: 0 7px 19px 0 #1ABA4346;
+
+  &:active {
+    background-color: #107F2D;
+  }
+}
+
 .sinister {
+  justify-content: space-evenly;
   background-color: #0086f8;
   -webkit-box-shadow: 0 7px 19px 0 #0084f846;
   box-shadow: 0 7px 19px 0 #0084f846;
@@ -662,6 +674,7 @@ article {
 }
 
 .lines {
+  justify-content: space-evenly;
   background-color: #ff6a3a;
   -webkit-box-shadow: 0 7px 19px 0 #ff6b3a41;
   box-shadow: 0 7px 19px 0 #ff6b3a41;
@@ -671,7 +684,12 @@ article {
   }
 }
 
+.article-4 {
+  width: 100%;
+  }
+  
 .spitch-article {
+  justify-content: space-evenly;
   background-color: #a9c257;
   -webkit-box-shadow: 0 7px 19px 0 #a0b94441;
   box-shadow: 0 7px 19px 0 #a0b94441;
@@ -682,6 +700,7 @@ article {
 }
 
 .ah {
+  justify-content: space-evenly;
   background-color: #0495ff;
   -webkit-box-shadow: 0 7px 19px 0 #0496ff42;
   box-shadow: 0 7px 19px 0 #0496ff42;
