@@ -309,6 +309,16 @@ main {
           background: #b9396c;
         }
       }
+      
+      &.linkedin a {
+        background: #0073b1;
+        -webkit-box-shadow: 0 3px 9px 0 rgba(185, 57, 108, 0.23);
+        box-shadow: 0 3px 9px 0 rgba(185, 57, 108, 0.23);
+
+        &:active {
+          background: #b9396c;
+        }
+      }
 
       margin: 10px;
 

@@ -296,6 +296,14 @@ main ul li.dribbble a {
 main ul li.dribbble a:active {
   background: #b9396c;
 }
+main ul li.linkedin a {
+  background: #0073b1;
+  -webkit-box-shadow: 0 3px 9px 0 rgba(185, 57, 108, 0.23);
+  box-shadow: 0 3px 9px 0 rgba(185, 57, 108, 0.23);
+}
+main ul li.linkedin a:active {
+  background: #b9396c;
+}
 main ul li picture {
   display: block;
   height: 26px;
