@@ -19,6 +19,10 @@
   font-style: normal;
   font-display: swap;
 }
+.article div {
+  width: 100%;
+}
+
 #header-box {
   margin-right: auto;
   margin-left: auto;
@@ -227,28 +231,33 @@ body {
   }
 }
 main,
-section {
+section,
+.article {
   padding: 0 100px;
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
+  width: 100%;
 }
 
 @media (max-width: 920px) {
   main,
-section {
+section,
+.article {
     padding: 0 60px;
   }
 }
 @media (max-width: 760px) {
   main,
-section {
+section,
+.article {
     padding: 0 40px;
   }
 }
 @media (max-width: 500px) {
   main,
-section {
+section,
+.article {
     padding: 0 30px;
   }
 }
@@ -256,55 +265,67 @@ main {
   padding-top: 50px;
   padding-bottom: 70px;
 }
-main h1 {
+
+main h1,
+.article h1 {
   font-size: 40px;
   font-weight: 800;
   line-height: 1.2;
   padding: 50px 0 25px;
 }
-main ul {
+main ul,
+.article ul {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
   margin: -10px;
-  justify-content: space-between;
 }
-main ul li {
+main ul li,
+.article ul li {
   margin: 10px;
 }
-main ul li.mail a {
+main ul li.mail a,
+.article ul li.mail a {
   background: #539de8;
   -webkit-box-shadow: 0 3px 9px 0 #3f78b131;
   box-shadow: 0 3px 9px 0 #3f78b131;
 }
-main ul li.mail a:active {
+main ul li.mail a:active,
+.article ul li.mail a:active {
   background: #3f78b1;
 }
-main ul li.twitter a {
+main ul li.twitter a,
+.article ul li.twitter a {
   background: #1da1f2;
   -webkit-box-shadow: 0 3px 9px 0 rgba(22, 124, 187, 0.23);
   box-shadow: 0 3px 9px 0 rgba(22, 124, 187, 0.23);
 }
-main ul li.twitter a:active {
+main ul li.twitter a:active,
+.article ul li.twitter a:active {
   background: #167cbb;
 }
-main ul li.dribbble a {
+main ul li.dribbble a,
+.article ul li.dribbble a {
   background: #ea4c89;
   -webkit-box-shadow: 0 3px 9px 0 rgba(185, 57, 108, 0.23);
   box-shadow: 0 3px 9px 0 rgba(185, 57, 108, 0.23);
 }
-main ul li.dribbble a:active {
+main ul li.dribbble a:active,
+.article ul li.dribbble a:active {
   background: #b9396c;
 }
-main ul li.linkedin a {
+main ul li.linkedin a,
+.article ul li.linkedin a {
   background: #0073b1;
   -webkit-box-shadow: 0 3px 9px 0 rgba(0, 115, 177, 0.23);
   box-shadow: 0 3px 9px 0 rgba(0, 115, 177, 0.23);
 }
-main ul li.linkedin a:active {
+main ul li.linkedin a:active,
+.article ul li.linkedin a:active {
   background: #005c8e;
 }
-main ul li picture {
+main ul li picture,
+.article ul li picture {
   display: block;
   height: 26px;
 }
@@ -414,35 +435,42 @@ p > a:hover:before {
   transform: i scaleX(1);
 }
 
-main p a.spitch {
+main p a.spitch,
+.article p a.spitch {
   color: #a9c257;
 }
-main p.welcomeText {
+main p.welcomeText,
+.article p.welcomeText {
   font-size: 20px;
   margin-bottom: 24px;
   font-weight: 600;
 }
-main p.secondLine {
+main p.secondLine,
+.article p.secondLine {
   font-size: 20px;
   margin-bottom: 40px;
 }
-main p.paragraphText {
+main p.paragraphText,
+.article p.paragraphText {
   line-height: 28px;
   font-size: 20px;
   margin-bottom: 40px;
 }
-main p.imageComment {
+main p.imageComment,
+.article p.imageComment {
   font-size: 18px;
   margin-bottom: 40px;
   text-align: center;
   color: #949494;
 }
-main p img {
+main p img,
+.article p img {
   display: block;
   margin-left: 1px;
   margin-right: 3px;
 }
-main p svg {
+main p svg,
+.article p svg {
   display: block;
   margin-left: 0px;
   margin-right: 5px;

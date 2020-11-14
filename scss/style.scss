@@ -22,6 +22,10 @@
   font-display: swap;
 }
 
+.article div {
+  width: 100%;
+}
+
 #header-box {
   margin-right: auto;
   margin-left: auto;
@@ -233,37 +237,46 @@ body {
 }
 
 main,
-section {
+section,
+.article {
   padding: 0 100px;
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
+  width: 100%;
+
 }
 
 @media (max-width: 920px) {
   main,
-  section {
+  section,
+  .article {
     padding: 0 60px;
   }
 }
 
 @media (max-width: 760px) {
   main,
-  section {
+  section,
+  .article {
     padding: 0 40px;
   }
 }
 
 @media (max-width: 500px) {
   main,
-  section {
+  section,
+  .article {
     padding: 0 30px;
   }
 }
 
-main {
+main{
   padding-top: 50px;
   padding-bottom: 70px;
+}
+main,
+.article {
 
   h1 {
     font-size: 40px;
@@ -277,7 +290,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin: -10px;
-    justify-content: space-between;
 
     li {
       &.mail a {
@@ -436,7 +448,8 @@ p > a:hover:before {
   transform: i scaleX(1);
 }
 
-main p {
+main p,
+.article p{
   a.spitch {
     color: #a9c257;
   }
