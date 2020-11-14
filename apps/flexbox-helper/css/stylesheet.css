@@ -187,7 +187,6 @@ a:hover::after {
 .container main footer {
   padding: 1.5rem;
   height: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   scroll-snap-align: start;
