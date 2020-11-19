@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="81" viewBox="0 0 80 81">
+  <defs>
+    <radialGradient id="waving-hand-c" cx="63.811%" cy="64.807%" r="67.398%" fx="63.811%" fy="64.807%" gradientTransform="matrix(-.5478 .75215 -.83661 -.4925 1.53 .487)">
+      <stop offset="0%" stop-color="#E5C5A3"/>
+      <stop offset="100%" stop-color="#DFB892"/>
+    </radialGradient>
+    <path id="waving-hand-b" d="M49.8937011,77.1907282 C62.4323403,76.0104524 70.5524727,65.7453107 72.342815,58.8061777 C74.1331574,51.8670447 70.8852573,39.1190423 70.8852573,33.8000112 C70.8852573,28.4809801 71.1914047,18.1035594 69.8852573,16.2374363 C68.5791099,14.3713133 66.8242583,12.3713133 63.9960495,14.2374363 C62.5310586,15.204074 61.0369068,17.7570927 60.450324,19.6934088 C59.5186466,22.7688856 61.7575573,33.4117943 57.8132057,34.3739479 C55.4139403,34.9592055 51.2539863,30.0293955 46.4784933,23.7288556 C39.4784042,14.4932981 32.7835469,2.06400885 27.8740504,6.07061069 C23.7592074,9.42870198 27.8114071,14.9003883 31.9729062,20.4530559 C36.7886586,26.8786904 42.0851656,33.1665389 41.4292798,33.8000112 C40.835036,34.3739479 33.6923325,26.4527783 27.4765561,19.1529884 C22.2179364,12.9772806 18.8244522,6.3645716 14.1080879,10.6934722 C9.39172354,15.0223729 18.132202,23.0128473 23.7141883,29.253828 C30.5662981,36.9148797 36.0138454,42.2652824 35.3605203,43.0974502 C34.7071951,43.929618 28.5343496,37.3807561 22.9017822,31.4430442 C17.5258327,25.7758525 13.234399,20.4530559 9.39172354,24.7688856 C6.03021111,28.5443061 10.4780555,32.0718642 15.1944332,36.9365662 C18.9517234,40.8120186 23.4451201,45.7619536 26.834271,48.9811313 C29.953383,51.9438132 31.5257578,52.861915 30.9476012,53.6815659 C29.4335351,55.8280527 16.2817897,35.5940899 10.410657,43.0974502 C7.45677527,46.8725376 15.2104315,52.5321336 22.9017822,59.7648326 C31.9083598,68.2343286 42.6923326,77.8686009 49.8937011,77.1907282 Z"/>
+    <filter id="waving-hand-a" width="106.2%" height="105.6%" x="-3.1%" y="-1.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0776233806 0"/>
+    </filter>
+    <filter id="waving-hand-d" width="115.5%" height="113.9%" x="-7.7%" y="-5.6%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.88627451   0 0 0 0 0.741176471   0 0 0 0 0.596078431  0 0 0 1 0"/>
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="2.5"/>
+      <feOffset dy="-3" in="shadowBlurInner2" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.88627451   0 0 0 0 0.741176471   0 0 0 0 0.596078431  0 0 0 1 0"/>
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner3" stdDeviation="1.5"/>
+      <feOffset in="shadowBlurInner3" result="shadowOffsetInner3"/>
+      <feComposite in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3"/>
+      <feColorMatrix in="shadowInnerInner3" result="shadowMatrixInner3" values="0 0 0 0 0.0438277756   0 0 0 0 0.0380361549   0 0 0 0 0.0380361549  0 0 0 0.155739524 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+        <feMergeNode in="shadowMatrixInner3"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1.875)">
+    <use fill="#000" filter="url(#waving-hand-a)" xlink:href="#waving-hand-b"/>
+    <use fill="url(#waving-hand-c)" xlink:href="#waving-hand-b"/>
+    <use fill="#000" filter="url(#waving-hand-d)" xlink:href="#waving-hand-b"/>
+    <path stroke="#999" stroke-linecap="round" stroke-width="2" d="M9.09494702e-13 2.18112541C1.76557223 5.77086795 3.87297359 8.8103274 6.3222041 11.2995038 8.7714346 13.7886801 11.6607697 15.8274517 14.9902095 17.4158185M5.97901679 0C7.32536911 2.73738912 8.93238619 5.05515512 10.800068 6.95329801 12.6677499 8.8514409 14.8710373 10.4061237 17.4099302 11.6173465" transform="translate(0 50)"/>
+    <path stroke="#999" stroke-linecap="round" stroke-width="2" d="M9.09494702e-13 2.18112541C1.76557223 5.77086795 3.87297359 8.8103274 6.3222041 11.2995038 8.7714346 13.7886801 11.6607697 15.8274517 14.9902095 17.4158185M5.97901679 0C7.32536911 2.73738912 8.93238619 5.05515512 10.800068 6.95329801 12.6677499 8.8514409 14.8710373 10.4061237 17.4099302 11.6173465" transform="rotate(-172 29.07 8.601)"/>
+  </g>
+</svg>

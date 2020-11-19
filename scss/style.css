@@ -194,6 +194,11 @@ article:active {
 
 li {
   transition: all 0.2s ease-out;
+  flex-grow: 1;
+  /* flex-wrap: wrap-reverse; */
+  flex-basis: auto;
+  min-width: 150px;
+  max-width: 46%;
 }
 li:hover {
   transform: scale(1.02);
@@ -279,6 +284,10 @@ main ul,
   display: flex;
   flex-wrap: wrap;
   margin: -10px;
+}
+main ul a,
+.article ul a {
+  width: 100%;
 }
 main ul li,
 .article ul li {
@@ -500,6 +509,10 @@ main ul li a {
   border-radius: 50px;
   padding: 15px;
   height: 50px;
+  flex-grow: 1;
+  flex-basis: auto;
+  min-width: 150px;
+  max-width: 46%;
 }
 
 h2 {
