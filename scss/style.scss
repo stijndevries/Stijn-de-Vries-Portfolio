@@ -183,11 +183,11 @@ ul {
 }
 
 a {
-transition: all .2s ease-out;
+transition: transform .2s ease-out;
 }
 
 article{
-  transition: all .2s ease-out;
+  transition: transform .2s ease-out;
     &:hover {
     transform:scale(1.02)
     
@@ -199,7 +199,7 @@ article{
 }
 
 li{
-  transition: all .2s ease-out;
+  transition: transform .2s ease-out;
   flex-grow: 1;
   /* flex-wrap: wrap-reverse; */
   flex-basis: auto;

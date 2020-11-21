@@ -178,11 +178,11 @@ ul {
 }
 
 a {
-  transition: all 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 article {
-  transition: all 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 article:hover {
   transform: scale(1.02);
