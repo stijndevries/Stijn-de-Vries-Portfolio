@@ -2,7 +2,7 @@
   font-family: "EuclidCircularB";
   src: url("fonts/EuclidCircularB-Regular-WebS.woff2") format("woff2");
   font-weight: 500;
-  font-style: normal;
+  font-style: normal; 
   font-display: swap;
 }
 
@@ -426,8 +426,11 @@ p > a {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  opacity: 0.2;
+  height: 35px;
+  border-radius: 10px;
 }
 
 .han:before {

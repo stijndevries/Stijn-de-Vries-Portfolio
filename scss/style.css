@@ -193,7 +193,7 @@ article:active {
 }
 
 li {
-  transition: all 0.2s ease-out;
+  transition: transform 0.2s ease-out;
   flex-grow: 1;
   /* flex-wrap: wrap-reverse; */
   flex-basis: auto;
@@ -406,8 +406,11 @@ p > a:hover {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  opacity: 0.2;
+  height: 35px;
+  border-radius: 10px;
 }
 
 .han:before {
@@ -677,7 +680,7 @@ article:nth-of-type(even) {
   background-color: #c9542e;
 }
 
-.article-4 {
+.myWorkWide {
   width: 100%;
 }
 

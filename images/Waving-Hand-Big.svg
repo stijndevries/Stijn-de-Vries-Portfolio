@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="162px" viewBox="0 0 160 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Waving-Hand-Big</title>
+    <defs>
+        <radialGradient cx="63.8112037%" cy="64.8074361%" fx="63.8112037%" fy="64.8074361%" r="67.3983604%" gradientTransform="translate(0.638112,0.648074),scale(1.000000,0.899040),rotate(123.215543),translate(-0.638112,-0.648074)" id="radialGradient-1">
+            <stop stop-color="#E5C5A3" offset="0%"></stop>
+            <stop stop-color="#DFB892" offset="100%"></stop>
+        </radialGradient>
+        <path d="M99.7874021,152.381456 C124.864681,150.020905 141.104945,129.490621 144.68563,115.612355 C148.266315,101.734089 141.770515,76.2380846 141.770515,65.6000224 C141.770515,54.9619602 142.382809,34.2071188 139.770515,30.4748727 C137.15822,26.7426265 133.648517,22.7426265 127.992099,26.4748727 C125.062117,28.4081481 122.073814,33.5141854 120.900648,37.3868177 C119.037293,43.5377713 123.515115,64.8235886 115.626411,66.7478958 C110.827881,67.9184111 102.507973,58.058791 92.9569866,45.4577112 C78.9568085,26.9865962 65.5670938,2.1280177 55.7481008,10.1412214 C47.5184148,16.857404 55.6228142,27.8007767 63.9458124,38.9061118 C73.5773173,51.7573809 84.1703312,64.3330778 82.8585596,65.6000224 C81.6700721,66.7478958 67.3846651,50.9055567 54.9531121,36.3059767 C44.4358728,23.9545612 37.6489044,10.7291432 28.2161757,19.3869445 C18.7834471,28.0447457 36.264404,44.0256945 47.4283766,56.507656 C61.1325962,71.8297593 72.0276909,82.5305648 70.7210406,84.1949004 C69.4143902,85.8592361 57.0686992,72.7615121 45.8035644,60.8860884 C35.0516654,49.551705 26.468798,38.9061118 18.7834471,47.5377713 C12.0604222,55.0886121 20.9561109,62.1437285 30.3888663,71.8731325 C37.9034467,79.6240372 46.8902402,89.5239072 53.6685419,95.9622626 C59.9067659,101.887626 63.0515156,103.72383 61.8952024,105.363132 C58.8670702,109.656105 32.5635794,69.1881798 20.821314,84.1949004 C14.9135505,91.7450752 30.4208629,103.064267 45.8035644,117.529665 C63.8167196,134.468657 85.3846653,153.737202 99.7874021,152.381456 Z" id="path-2"></path>
+        <filter x="-3.1%" y="-1.4%" width="106.2%" height="105.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0776233806 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-7.7%" y="-5.6%" width="115.5%" height="113.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.88627451   0 0 0 0 0.741176471   0 0 0 0 0.596078431  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0" dy="-6" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.88627451   0 0 0 0 0.741176471   0 0 0 0 0.596078431  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner3"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner3" result="shadowOffsetInner3"></feOffset>
+            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0438277756   0 0 0 0 0.0380361549   0 0 0 0 0.0380361549  0 0 0 0.155739524 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Waving-Hand-Big" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.750691, 2.000000)">
+            <g id="Path-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-3" transform="translate(0.000000, 98.000000)" stroke="#999999" stroke-linecap="round" stroke-width="4">
+                <path d="M1.8189894e-12,4.36225083 C3.53114445,11.5417359 7.74594719,17.6206548 12.6444082,22.5990075 C17.5428692,27.5773602 23.3215394,31.6549033 29.9804189,34.8316369" id="Path-4"></path>
+                <path d="M11.9580336,0 C14.6507382,5.47477824 17.8647724,10.1103102 21.6001361,13.906596 C25.3354997,17.7028818 29.7420745,20.8122475 34.8198605,23.234693" id="Path-4"></path>
+            </g>
+            <g id="Group-3" transform="translate(98.425547, 20.564721) scale(-1, -1) rotate(8.000000) translate(-98.425547, -20.564721) translate(80.925547, 3.064721)" stroke="#999999" stroke-linecap="round" stroke-width="4">
+                <path d="M1.8189894e-12,4.36225083 C3.53114445,11.5417359 7.74594719,17.6206548 12.6444082,22.5990075 C17.5428692,27.5773602 23.3215394,31.6549033 29.9804189,34.8316369" id="Path-4"></path>
+                <path d="M11.9580336,0 C14.6507382,5.47477824 17.8647724,10.1103102 21.6001361,13.906596 C25.3354997,17.7028818 29.7420745,20.8122475 34.8198605,23.234693" id="Path-4"></path>
+            </g>
+        </g>
+    </g>
+</svg>
