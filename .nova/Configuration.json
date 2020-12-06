@@ -2,5 +2,5 @@
   "workspace.art_style" : 1,
   "workspace.color" : 1,
   "workspace.name" : "StijnDV Portfolio V3",
-  "workspace.preview_server_allow_external" : true
+  "workspace.preview_server_allow_external" : false
 }

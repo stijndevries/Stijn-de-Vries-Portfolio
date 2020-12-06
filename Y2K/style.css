@@ -377,7 +377,7 @@ main p.welcomeText {
   margin-bottom: 24px;
   font-weight: 600;
 }
-main p.secondLine {
+main p.normalText {
   font-size: 20px;
   margin-bottom: 40px;
 }
@@ -386,7 +386,7 @@ main p.paragraphText {
   font-size: 20px;
   margin-bottom: 40px;
 }
-main p.imageComment {
+main p.imageCommentText {
   font-size: 18px;
   margin-bottom: 40px;
   text-align: center;

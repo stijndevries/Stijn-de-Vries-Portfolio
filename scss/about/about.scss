@@ -1,0 +1,78 @@
+	.line-icon {
+	  height: 34px;
+	  border-radius: 8px;
+	  margin-top: auto;
+	  margin-bottom: auto;
+	}
+	
+	.line-box {
+	  margin-right: auto;
+	  margin-left: auto;
+	  background-color: rgba(126, 126, 126, 0.15);
+	  border-radius: 15px;
+	  align-content: center;
+	  display: flex;
+	  flex-direction: column;
+	  width: 100%;
+	  overflow: hidden;
+	  margin-bottom: 35px;
+	}
+	
+	.line-item {
+	  display: flex;
+	  flex-direction: row;
+	}
+	
+	.line-text {
+	  font-size: 20px;
+	  margin-left: 15px;
+	  text-decoration: none;
+	  padding-top: 7px;
+	  font-weight: 600;
+	  line-height: 24px;
+	  color: rgb(59, 59, 59);
+	}
+	
+	.line-link {
+	  text-decoration: none;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	  padding-bottom: 15px;
+	  padding-top: 15px;
+	}
+	
+	.line-link-icon {
+	  margin-left: auto;
+	  font-size: 20px;
+	  color: white;
+	  text-decoration: none;
+	  padding-top: 3px;
+	  height: 22px;
+	  margin-top: auto;
+	  margin-bottom: auto;
+	}
+	
+	.item-divider {
+	  height: 0.5px;
+	  background-color: rgba(124, 124, 124, 0.87);
+	  width: 100%;
+	  margin-left: 66px;
+	  padding: 0.5px;
+	}
+	
+	.color-image {
+	  margin-right: auto;
+	  margin-left: auto;
+	  width: 100%;
+	  line-height: 1;
+	  display: block;
+	  max-width: 520px;
+	  padding-left: 2em;
+	  padding-right: 2em;
+	}
+	
+	@media (prefers-color-scheme: dark) {
+		  .line-text {
+			color: #fff;
+		  }
+		}

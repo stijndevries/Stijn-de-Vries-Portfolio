@@ -5,12 +5,14 @@
 		<title>Pirate Heijn App Design and Development Case by Stijn de Vries</title>
 
 		<link as="style" rel="preload" href="../../scss/style.css" />
+		<link as="style" rel="preload" href="../../scss/article/article.css" />
 		<link rel="preload" href="../../scss/fonts/EuclidCircularB-Medium-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 		<link rel="preload" href="../../scss/fonts/EuclidCircularB-Bold-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 		<link rel="preload" href="../../scss/fonts/EuclidCircularB-Regular-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
 		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 		<link rel="stylesheet" href="../../scss/style.css" />
+		<link rel="stylesheet" href="../../scss/article/article.css" />
 
 		<link rel="shortcut icon" type="image/png" href="https://stijndv.com/stijn-favicon.png" />
 		<link rel="shortcut icon" type="image/svg+xml" href="https://stijndv.com/images/sdv-orange.svg" />
@@ -28,11 +30,9 @@
 		<meta property="og:site_name" content="Stijn de Vries Portfolio" />
 		<meta property="og:url" content="https://stijndv.com/article/pirate-heijn/" />
 		<meta property="og:image" content="https://stijndv.com/Stijn-De-Vries-Open-Graph.png" />
-		<meta name="robots" content="index,follow" />
-
+		
 		<meta name="robots" content="index,follow" />
 		<link rel="canonical" href="https://stijndv.com/article/pirate-heijn/" />
-		<meta name="referrer" content="same-origin" />
 
 		<script type="application/ld+json">
 			{
@@ -64,7 +64,7 @@
 	<body>
 		<!-- Navigation -->
 		<main
-			style="	background-color: #FF8A00;
+			style="	background-color: black;
 		margin: 0;
 		width: unset;
 		max-width: none;
@@ -73,14 +73,14 @@
 			<nav>
 				<div style="max-width: 800px;" id="header-box">
 					<a href="/">
-						<img id="logo-article" loading="eager" src="../../images/sdv-logo-2.svg" width="32" height="50" alt="Stijn de Vries Portfolio Logo" />
+						<img id="logo-article" loading="eager" src="../../images/sdv-logo-2.svg" style="filter: brightness(0.5) sepia(1) hue-rotate(-15deg) saturate(5);" width="32" height="50" alt="Stijn de Vries Portfolio Logo" />
 					</a>
 					<span id="navigation">
-						<a class="nav-item" href="/about/">
+						<a class="nav-item" style="color: #ff8a00!important;" href="/about/">
 							<span>About</span>
 						</a>
-						<a class="nav-item">|</a>
-						<a class="nav-item" href="/">
+						<a class="nav-item" style="color: #ff8a00!important;">|</a>
+						<a class="nav-item" style="color: #ff8a00!important;" href="/">
 							<span>Home</span>
 						</a>
 					</span>
@@ -88,67 +88,51 @@
 			</nav>
 
 			<!-- Header Image -->
-			<div style="background-color: #FF8A00;">
-				<img src="../../images/Pirate-Heijn.svg" id="head-image" alt="Lines logo by Stijn de Vries" />
+			<div style="background-color: black;">
+				<img src="../../images/Pirate-Hein-Wordmark.svg" height="300" id="head-image" alt="Pirate Heijn Logo" />
 			</div>
 		</main>
 
 		<!-- Main content -->
 		<section class="article" style="width: 100%;">
-			<!-- <p class="secondLine">
-      → back
-    </p> -->
-			<h1>Lines brand and website design and development</h1>
-			<p class="secondLine">Lines is a company that helps organizations reach goals by implementing innovative business models and B2B marketing solutions. Lines becomes a part of the organization to create a fitting solution, a great plan is worthless if it cannot be implemented. <br /></p>
+			<h1>An app that allows people to benefit from data collection while disrupting it.</h1>
+			<p class="normalText">Pirate Heijn is an app that enables users to use personalized discounts of all other users. All discounts are automatically submitted into one easily searchable database that is accessible from a cross-platform app. Now you are able to all of the best discounts while disrupting the data collection machine.<br /></p>
 
 			<div>
-				<div style="background-color: #ff6a3a; border-radius: 15px;">
-					<img src="Lines%20V1.svg" alt="Lines logo V1" class="article-image" />
+				<div style="border-radius: 15px;">
+					<picture>
+						<source srcset="/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.webp" type="image/webp" />
+						<source srcset="/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.png" type="image/png" />
+						<img src="/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.png" loading="lazy" width="320" height="632" style="width: 40%; height: 100%; padding: 0px; border-radius: 15px; max-height: unset;" alt="Pirate Heijn app interface" class="article-image" />
+					</picture>
 				</div>
-				<p class="imageComment">First version of the logo</p>
+				<p class="imageCommentText">Primary page of the app</p>
 			</div>
 
-			<p class="secondLine">I was tasked with creating a fitting brand with a companioning website. The brand is energetic and progressive, always moving forward while not forgetting the past. These values are reflected in the dynamic lines and warm and authentic colors. <br /></p>
+			<!-- <p class="normalText">I was tasked with creating a fitting brand with a companioning website. The brand is energetic and progressive, always moving forward while not forgetting the past. These values are reflected in the dynamic lines and warm and authentic colors. <br /></p>
 
 			<div>
 				<div style="background-color: #ff6a3a; border-radius: 15px;">
 					<img src="Lines%20V2.svg" alt="Lines logo V2" class="article-image" />
 				</div>
-				<p class="imageComment">Second version of the logo</p>
-			</div>
-
-			<p class="secondLine">
-				To create the logo I started by experimenting with combing the word "Lines" with line shapes. After creating multiple iterations we chose the final shape. This version is well balanced and has good readability. The logo is based on the Open Source typeface Metropolis.
-			</p>
+				<p class="imageCommentText">Second version of the logo</p>
+			</div> -->
 
 			<div>
-				<div style="background-color: #ff6a3a; border-radius: 15px;">
-					<img src="Lines%20V3.svg" alt="Lines logo V3" class="article-image" />
-				</div>
-				<p class="imageComment">Third version of the logo</p>
-			</div>
-
-			<p class="secondLine">
-				After finalizing the shape of the wordmark I started exploring colors. I wanted to create a color scheme that is warm but also energetic, following with the Lines values. Based on this I created a simple overview and chose the final color with the client. I made a wide selection of colors, from warm and professional too energetic and powerful.
-			</p>
-
-			<div>
-				<div style="background-color: #79797900; border-radius: 15px;">
-					<img src="Lines%20Color%20Examples.svg" style="width: 100%; height: 100%; padding: 0px; border-radius: 15px; max-height: 270px;" alt="Lines logo colors" class="article-image" />
-				</div>
-				<p class="imageComment">Potential color combinations</p>
-			</div>
-
-			<p class="secondLine">
-				After the color scheme was determined, production started on the website. I started by making a wireframe in Sketch, which I refined in collaboration with the client. The client had an existing website on WordPress, therefore this is the platform on which I brought the website to life.
-			</p>
-
-			<div>
-				<div style="background-color: #79797900; border-radius: 15px;">
-					<img src="lines-website-wordpress.svg" style="width: 100%; height: 100%; padding: 0px; border-radius: 15px; max-height: unset;" alt="Lines WordPress Website design" class="article-image" />
-				</div>
-				<p class="imageComment">Top section of the website</p>
+				<a href="/article/pirate-heijn/pirate-heijn-website/"
+					><img
+						alt="Visit the Pirate Heijn website"
+						height="40"
+						loading="lazy"
+						src="../../images/article/pirate-heijn/Pirate-Heijn-Visit-Website.svg"
+						style="margin-right: auto;
+				margin-left: auto;
+				width: 100%;
+				margin-top: 100px;
+				margin-bottom: 100px;"
+				/></a>
 			</div>
 		</section>
+		<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ff8fd4af248c4421a7dfbc854641824a"}'></script>
 	</body>
 </html>
