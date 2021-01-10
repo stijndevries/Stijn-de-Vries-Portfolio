@@ -5,16 +5,16 @@ RewriteCond %{HTTP_HOST} ^stijndv.com[nc]
 RewriteRule ^(.*)$ https://www.stijndv.com/$1 [r=301,nc]
 <FilesMatch "\index.html$">
     Header add Link "</scss/style.css>; rel=preload; as=style"
-    Header add Link "</scss/fonts/EuclidCircularB-Medium-WebS.woff2>; rel=preload; as=font; type=font/woff2"
-    Header add Link "</scss/fonts/EuclidCircularB-Bold-WebS.woff2>; rel=preload; as=font; type=font/woff2"
-    Header add Link "</scss/fonts/EuclidCircularB-Regular-WebS.woff2>; rel=preload; as=font; type=font/woff2"
+    Header add Link "</fonts/EudoxusSans-Medium.woff2>; rel=preload; as=font; type=font/woff2"
+    Header add Link "</fonts/EudoxusSans-Bold.woff2>; rel=preload; as=font; type=font/woff2"
+    Header add Link "</fonts/EudoxusSans-Regular.woff2>; rel=preload; as=font; type=font/woff2"
 \</FilesMatch>
 # DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:eBereb
-ErrorDocument 400 /400.html
+ErrorDocument 400 400.html
 # DO NOT REMOVE THIS LINE AND THE LINES ABOVE eBereb:ERRORPAGEID
 
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:gebuNe
-ErrorDocument 404 /404.html
+ErrorDocument 404 404.html
 # DO NOT REMOVE THIS LINE AND THE LINES ABOVE gebuNe:ERRORPAGEID
 
