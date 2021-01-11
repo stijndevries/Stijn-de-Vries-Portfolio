@@ -6,21 +6,54 @@
 
 		<link as="style" rel="preload" href="../../scss/style.css" />
 		<link as="style" rel="preload" href="../../scss/article/article.css" />
-		<link rel="preload" href="../../scss/fonts/EuclidCircularB-Medium-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-		<link rel="preload" href="../../scss/fonts/EuclidCircularB-Bold-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-		<link rel="preload" href="../../scss/fonts/EuclidCircularB-Regular-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
+		<link
+			rel="preload"
+			href="/fonts/EudoxusSans-Medium.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="preload"
+			href="/fonts/EudoxusSans-Bold.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="preload"
+			href="/fonts/EudoxusSans-Regular.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin="anonymous"
+		/>
 		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 		<link rel="stylesheet" href="../../scss/style.css" />
 		<link rel="stylesheet" href="../../scss/article/article.css" />
 
-		<link rel="shortcut icon" type="image/png" href="https://stijndv.com/stijn-favicon.png" />
-		<link rel="shortcut icon" type="image/svg+xml" href="https://stijndv.com/images/sdv-orange.svg" />
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href="https://stijndv.com/stijn-favicon.png"
+		/>
+		<link
+			rel="shortcut icon"
+			type="image/svg+xml"
+			href="https://stijndv.com/images/sdv-orange.svg"
+		/>
 		<link rel="apple-touch-icon" href="https://stijndv.com/stijn-touch-icon.png" />
-		<link rel="mask-icon" href="https://stijndv.com/images/sdv-logo-2.svg" color="rgb(255,147,0)" />
+		<link
+			rel="mask-icon"
+			href="https://stijndv.com/images/sdv-logo-2.svg"
+			color="rgb(255,147,0)"
+		/>
 
-		<meta name="description" content="Pirate Heijn App Design and Development Case by Stijn de Vries" />
-		<meta name="keywords" content="Stijn de Vries, @StijnDV, Design Case, Pirate Heijn, React Native, App" />
+		<meta
+			name="description"
+			content="Pirate Heijn App Design and Development Case by Stijn de Vries"
+		/>
+		<meta name="keywords" content="Design Case, Pirate Heijn, React Native, App" />
 		<meta name="author" content="Stijn de Vries, mail@stijndv.com" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@StijnDV" />
@@ -29,31 +62,34 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:site_name" content="Stijn de Vries Portfolio" />
 		<meta property="og:url" content="https://stijndv.com/article/pirate-heijn/" />
-		<meta property="og:image" content="https://stijndv.com/Stijn-De-Vries-Open-Graph.png" />
-		
+		<meta
+			property="og:image"
+			content="https://stijndv.com/Stijn-De-Vries-Open-Graph.png"
+		/>
+
 		<meta name="robots" content="index,follow" />
 		<link rel="canonical" href="https://stijndv.com/article/pirate-heijn/" />
 
 		<script type="application/ld+json">
 			{
-			  "@context": "http://schema.org",
-			  "@id": "https://stijndv.com#",
-			  "@type": "ProfessionalService",
-			  "url": "https://stijndv.com",
-			  "name": "Stijn de Vries",
-			  "description": "Designer",
-			  "image": "https://stijndv.com/stijn-touch-icon.png"
+				"@context": "http://schema.org",
+				"@id": "https://stijndv.com#",
+				"@type": "ProfessionalService",
+				"url": "https://stijndv.com",
+				"name": "Stijn de Vries",
+				"description": "Designer",
+				"image": "https://stijndv.com/stijn-touch-icon.png"
 			}
 		</script>
 		<script type="application/ld+json">
 			{
-			  "@context": "http://schema.org",
-			  "@type": "Person",
-			  "email": "mailto:mail@stijndv.com",
-			  "jobTitle": "Designer",
-			  "name": "Stijn de Vries",
-			  "url": "https://stijndv.com",
-			  "worksFor": "https://spitch.nl"
+				"@context": "http://schema.org",
+				"@type": "Person",
+				"email": "mailto:mail@stijndv.com",
+				"jobTitle": "Designer",
+				"name": "Stijn de Vries",
+				"url": "https://stijndv.com",
+				"worksFor": "https://spitch.nl"
 			}
 		</script>
 
@@ -64,23 +100,33 @@
 	<body>
 		<!-- Navigation -->
 		<main
-			style="	background-color: black;
-		margin: 0;
-		width: unset;
-		max-width: none;
-		padding-bottom: 0;"
+			style="
+				background-color: black;
+				margin: 0;
+				width: unset;
+				max-width: none;
+				padding-bottom: 0;
+			"
 		>
 			<nav>
-				<div style="max-width: 800px;" id="header-box">
+				<div style="max-width: 800px" id="header-box">
 					<a href="/">
-						<img id="logo-article" loading="eager" src="../../images/sdv-logo-2.svg" style="filter: brightness(0.5) sepia(1) hue-rotate(-15deg) saturate(5);" width="32" height="50" alt="Stijn de Vries Portfolio Logo" />
+						<img
+							id="logo-article"
+							loading="eager"
+							src="../../images/sdv-logo-2.svg"
+							style="filter: brightness(0.5) sepia(1) hue-rotate(-15deg) saturate(5)"
+							width="32"
+							height="50"
+							alt="Stijn de Vries Portfolio Logo"
+						/>
 					</a>
 					<span id="navigation">
-						<a class="nav-item" style="color: #ff8a00!important;" href="/about/">
+						<a class="nav-item" style="color: #ff8a00 !important" href="/about/">
 							<span>About</span>
 						</a>
-						<a class="nav-item" style="color: #ff8a00!important;">|</a>
-						<a class="nav-item" style="color: #ff8a00!important;" href="/">
+						<a class="nav-item" style="color: #ff8a00 !important">|</a>
+						<a class="nav-item" style="color: #ff8a00 !important" href="/">
 							<span>Home</span>
 						</a>
 					</span>
@@ -88,22 +134,58 @@
 			</nav>
 
 			<!-- Header Image -->
-			<div style="background-color: black;">
-				<img src="../../images/Pirate-Hein-Wordmark.svg" height="300" id="head-image" alt="Pirate Heijn Logo" />
+			<div style="background-color: black">
+				<img
+					src="../../images/Pirate-Hein-Wordmark.svg"
+					height="300"
+					id="head-image"
+					alt="Pirate Heijn Logo"
+				/>
 			</div>
 		</main>
 
 		<!-- Main content -->
-		<section class="article" style="width: 100%;">
-			<h1>An app that allows people to benefit from data collection while disrupting it.</h1>
-			<p class="normalText">Pirate Heijn is an app that enables users to use personalized discounts of all other users. All discounts are automatically submitted into one easily searchable database that is accessible from a cross-platform app. Now you are able to all of the best discounts while disrupting the data collection machine.<br /></p>
+		<section class="article" style="width: 100%">
+			<h1>
+				An app that allows people to benefit from data collection while disrupting it.
+			</h1>
+			<p class="normalText">
+				Pirate Heijn is an app that enables users to use personalized discounts of all
+				other users. All discounts are automatically submitted into one easily searchable
+				database that is accessible from a cross-platform app. Now you are able to all of
+				the best discounts while disrupting the data collection machine.<br />
+			</p>
 
 			<div>
-				<div style="border-radius: 15px;">
+				<div style="border-radius: 15px">
 					<picture>
-						<source srcset="/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.webp" type="image/webp" />
-						<source srcset="/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.png" type="image/png" />
-						<img src="/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.png" loading="lazy" width="320" height="632" style="width: 40%; height: 100%; padding: 0px; border-radius: 15px; max-height: unset;" alt="Pirate Heijn app interface" class="article-image" />
+						<source
+							srcset="
+								/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.webp
+							"
+							type="image/webp"
+						/>
+						<source
+							srcset="
+								/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.png
+							"
+							type="image/png"
+						/>
+						<img
+							src="/article/pirate-heijn/pirate-heijn-website/Pirate-Heijn-Screenshot.png"
+							loading="lazy"
+							width="320"
+							height="632"
+							style="
+								width: 40%;
+								height: 100%;
+								padding: 0px;
+								border-radius: 15px;
+								max-height: unset;
+							"
+							alt="Pirate Heijn app interface"
+							class="article-image"
+						/>
 					</picture>
 				</div>
 				<p class="imageCommentText">Primary page of the app</p>
@@ -125,14 +207,20 @@
 						height="40"
 						loading="lazy"
 						src="../../images/article/pirate-heijn/Pirate-Heijn-Visit-Website.svg"
-						style="margin-right: auto;
-				margin-left: auto;
-				width: 100%;
-				margin-top: 100px;
-				margin-bottom: 100px;"
+						style="
+							margin-right: auto;
+							margin-left: auto;
+							width: 100%;
+							margin-top: 100px;
+							margin-bottom: 100px;
+						"
 				/></a>
 			</div>
 		</section>
-		<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ff8fd4af248c4421a7dfbc854641824a"}'></script>
+		<script
+			defer
+			src="https://static.cloudflareinsights.com/beacon.min.js"
+			data-cf-beacon='{"token": "ff8fd4af248c4421a7dfbc854641824a"}'
+		></script>
 	</body>
 </html>

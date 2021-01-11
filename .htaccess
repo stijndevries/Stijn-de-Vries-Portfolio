@@ -1,3 +1,6 @@
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
 //Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
@@ -9,12 +12,28 @@ RewriteRule ^(.*)$ https://www.stijndv.com/$1 [r=301,nc]
     Header add Link "</fonts/EudoxusSans-Bold.woff2>; rel=preload; as=font; type=font/woff2"
     Header add Link "</fonts/EudoxusSans-Regular.woff2>; rel=preload; as=font; type=font/woff2"
 \</FilesMatch>
+Header always add Access-Control-Allow-Methods "POST, GET, PUT, OPTIONS, PATCH, DELETE"
+Header always add Access-Control-Allow-Headers "X-Accept-Charset,X-Accept,Content-Type"
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L,E=HTTP_ORIGIN:%{HTTP:ORIGIN}]]
+
 # DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:eBereb
 ErrorDocument 400 400.html
 # DO NOT REMOVE THIS LINE AND THE LINES ABOVE eBereb:ERRORPAGEID
-
+<IfModule mod_headers.c>
+   Header set Access-Control-Allow-Origin "*"
+ </IfModule>
+Header set Access-Control-Allow-Origin "*"
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:gebuNe
 ErrorDocument 404 404.html
 # DO NOT REMOVE THIS LINE AND THE LINES ABOVE gebuNe:ERRORPAGEID
-
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+<FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
+Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
