@@ -85,7 +85,7 @@ body {
 	font-weight: 500;
 	line-height: 1.6;
 	min-height: 100vh;
-	background: rgb(242, 235, 230);
+	background: #f5efeb;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -93,7 +93,7 @@ body {
 @media (prefers-color-scheme: dark) {
 	body {
 		color: #fff;
-		background: #141413;
+		background: #1b1a1a;
 	}
 }
 

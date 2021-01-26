@@ -73,14 +73,14 @@ body {
   font-weight: 500;
   line-height: 1.6;
   min-height: 100vh;
-  background: #f2ebe6;
+  background: #f5efeb;
   -webkit-font-smoothing: antialiased;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     color: #fff;
-    background: #141413;
+    background: #1b1a1a;
   }
 }
 nav #header-box {
