@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url><loc>https://stijndv.com/</loc><lastmod>2020-11-24</lastmod><priority>1</priority></url>
-	<url><loc>https://stijndv.com/about/</loc><lastmod>2020-11-21</lastmod><priority>0.5</priority></url>
+	<url><loc>https://stijndv.com/about/</loc><lastmod>2021-01-12</lastmod><priority>0.5</priority></url>
 	
-	<url><loc>https://stijndv.com/goodies/big-sur-replacement-icons/</loc><lastmod>2020-12-10</lastmod> <priority>1</priority></url>
+	<url><loc>https://stijndv.com/goodies/big-sur-replacement-icons/</loc><lastmod>2021-01-12</lastmod> <priority>1</priority></url>
+	<url><loc>https://stijndv.com/goodies/eudoxus-sans/</loc><lastmod>2021-01-12</lastmod> <priority>1</priority></url>
 	
 	<url><loc>https://stijndv.com/apps/flexbox-helper/</loc><lastmod>2020-11-20</lastmod> <priority>0.7</priority></url>
 	

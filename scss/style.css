@@ -152,9 +152,15 @@ section {
 }
 main {
   padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
+.article .profilePicture,
+main .profilePicture {
+  margin-top: 30px;
+  margin-bottom: -27px;
+  border-radius: 50%;
+}
 .article h1,
 main h1 {
   font-size: 40px;
@@ -176,6 +182,7 @@ main ul a {
 .article ul li,
 main ul li {
   margin: 10px;
+  padding-top: 30px;
 }
 .article ul li.mail a,
 main ul li.mail a {
@@ -319,7 +326,7 @@ main p.welcomeText,
 .article p.welcomeText {
   font-size: 20px;
   margin-bottom: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 main p.normalText,
 .article p.normalText {

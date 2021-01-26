@@ -5,9 +5,10 @@
 		<title>Big Sur Replacement Icons | Stijn de Vries</title>
 
 		<link as="style" rel="preload" href="/scss/style.css" />
-		<link rel="preload" href="/scss/fonts/EuclidCircularB-Medium-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-		<link rel="preload" href="/scss/fonts/EuclidCircularB-Bold-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-		<link rel="preload" href="/scss/fonts/EuclidCircularB-Regular-WebS.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/EudoxusSans-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/EudoxusSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/EudoxusSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+		<link rel="preload" href="/fonts/EudoxusSans-ExtraBold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
 		<link rel="stylesheet" href="/scss/style.css" />
 		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
@@ -327,33 +328,63 @@
 			</article>
 		</section>
 		<main>
-			<h2>How do I change app icons in macOS Big Sur?</h2>
-			<h3 style="font-size: 1.55em">Method 1</h3>
+			<div itemscope itemtype="https://schema.org/HowTo">
+				<h2 itemprop="name">How do I change app icons in macOS Big Sur?</h2>
 
-			<p class="welcomeText">
-				The easiest method of changing your icons is with
-				<a href="https://pictogramapp.com" class="sparkle" rel="nofollow noopener" target="_blank">
-					<picture>
-						<source srcset="Pictogram-logo.webp" type="image/webp" />
-						<source srcset="Pictogram-logo.png" type="image/png" />
-						<img loading="lazy" src="Pictogram-logo.png" alt="Pictogram Logo MacOS Big Sur Icon changer" width="23" height="23" />
-					</picture>
-					Pictogram</a
-				>. This way your icons stay modified even after updating them. This does not work for System and AppStore apps tough.
-			</p>
+				<div itemprop="step" itemscope itemtype="https://schema.org/HowToSection">
+					<h3 style="font-size: 1.55em" itemprop="name">Method 1</h3>
+					<meta itemprop="position" content="1" />
+					<p class="welcomeText" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
+						<meta itemprop="position" content="1" />
+						The easiest method of changing your icons is with
+						<a href="https://pictogramapp.com" class="sparkle" rel="nofollow noopener" target="_blank" itemprop="tool" itemscope itemtype="https://schema.org/HowToTool">
+							<picture>
+								<source srcset="Pictogram-logo.webp" type="image/webp" />
+								<source srcset="Pictogram-logo.png" type="image/png" />
+								<img loading="lazy" src="Pictogram-logo.png" alt="Pictogram Logo MacOS Big Sur Icon changer" width="23" height="23" itemprop="image" />
+							</picture>
+							Pictogram</a
+						>. This way your icons stay modified even after updating them. This does not work for System and AppStore apps tough.
+					</p>
+				</div>
 
-			<h3 style="font-size: 1.55em">Method 2</h3>
-			<p class="welcomeText">
-				If Pictogram does not work there is another way to change your app icons: <br />
-				1. Right click on the app in the dock → Options → Show in Finder. <br />
-				2. Press ⌘I (Or right click → Get Info) <br />
-				3. Drag the new icon onto the small icon in the top left of the Info window.
-				<br />
-				4. Done! Keep in mind that this will reset with every app update.
-			</p>
+				<div itemprop="step" itemscope itemtype="https://schema.org/HowToSection">
+					<h3 style="font-size: 1.55em" itemprop="name">Method 2</h3>
+					<meta itemprop="position" content="2" />
+					<p class="welcomeText">
+						If Pictogram does not work there is another way to change your app icons:
+						<br />
+						<span itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
+							<meta itemprop="position" content="1" />
+							1. Right click on the app in the dock → Options → Show in Finder.
+						</span>
+						<br />
+						<span itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
+							<meta itemprop="position" content="2" />
+							2. Press ⌘I (Or right click → Get Info) <br />
+						</span>
+						<span itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
+							<meta itemprop="position" content="3" />
+							3. Drag the new icon onto the small icon in the top left of the Info window.</span
+						>
+						<br />
+						<span itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
+							<meta itemprop="position" content="4" />
+							4. Done! Keep in mind that this will reset with every app update.
+						</span>
+					</p>
+				</div>
+			</div>
 		</main>
 		<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ff8fd4af248c4421a7dfbc854641824a"}'></script>
 		<script defer src="/js/InstantPage.js"></script>
+		<script>
+			window.ga_tid = "UA-144742746-1";
+			window.ga_api = "https://ichnaea.stijn.workers.dev";
+		</script>
+		<script src="https://stijndv.com/js/ichnaea.js" async></script>
+		<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
 		<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org",
@@ -365,16 +396,16 @@
 				  "@type": "Answer",
 				  "text": "Method 1
 			The easiest method of changing your icons is with Pictogram. This way your icons stay modified even after updating them. But this does not work for System and App Store apps.
-			
+
 			Method 2
-			If Pictogram does not work there is another way to change your app icons: 
-			1. Right click on the app in the dock → Options → Show in Finder. 
-			2. Press ⌘I (Or right click → Get Info) 
-			3. Drag the new icon onto the small icon in the top left of the Info window. 
+			If Pictogram does not work there is another way to change your app icons:
+			1. Right click on the app in the dock → Options → Show in Finder.
+			2. Press ⌘I (Or right click → Get Info)
+			3. Drag the new icon onto the small icon in the top left of the Info window.
 			4. Done! Keep in mind that this will reset with every app update."
 				}
 			  }
 			}
-			</script>
+		</script>
 	</body>
 </html>

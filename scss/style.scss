@@ -1,28 +1,3 @@
-// Fonts
-// @font-face {
-// 	font-family: 'EuclidCircularB';
-// 	src: url('fonts/EuclidCircularB-Regular-WebS.woff2') format('woff2');
-// 	font-weight: 500;
-// 	font-style: normal;
-// 	font-display: swap;
-// }
-//
-// @font-face {
-// 	font-family: 'EuclidCircularB';
-// 	src: url('fonts/EuclidCircularB-Medium-WebS.woff2') format('woff2');
-// 	font-weight: 600;
-// 	font-style: normal;
-// 	font-display: swap;
-// }
-//
-// @font-face {
-// 	font-family: 'EuclidCircularB';
-// 	src: url('fonts/EuclidCircularB-Bold-WebS.woff2') format('woff2');
-// 	font-weight: 800;
-// 	font-style: normal;
-// 	font-display: swap;
-// }
-
 @font-face {
 	font-family: 'Eudoxus Sans';
 	src: url('/fonts/EudoxusSans-Bold.woff2') format('woff2'),
@@ -76,7 +51,6 @@
 	font-style: normal;
 	font-display: block;
 }
-
 .article div {
 	width: 100%;
 }
@@ -94,6 +68,7 @@
 	box-sizing: border-box;
 	display: -webkit-box;
 	display: flex;
+	height: 51px;
 }
 
 #navigation {
@@ -196,11 +171,15 @@ section {
 
 main {
 	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 }
 
 .article,
 main {
+	.profilePicture {
+		margin-top: 30px;
+		border-radius: 50%;
+		}
 	h1 {
 		font-size: 40px;
 		font-weight: 800;
@@ -260,6 +239,7 @@ main {
 			}
 
 			margin: 10px;
+			padding-top: 30px;
 
 			picture {
 				display: block;
@@ -374,7 +354,7 @@ main p,
 	&.welcomeText {
 		font-size: 20px;
 		margin-bottom: 24px;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	&.normalText {
