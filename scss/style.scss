@@ -80,7 +80,7 @@ body {
 	flex-direction: column;
 	-webkit-box-pack: center;
 	justify-content: auto;
-	color: #1d1d1e;
+	color: #f4f4f4;
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 1.6;
@@ -120,6 +120,7 @@ nav {
 			.profilePicture {
 				margin-right: 30px;
 				border-radius: 50%;
+				background-color: rgb(66, 66, 66);
 			}
 		}
 		
