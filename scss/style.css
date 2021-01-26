@@ -56,6 +56,7 @@
   box-sizing: border-box;
   display: -webkit-box;
   display: flex;
+  height: 51px;
 }
 
 #navigation {
@@ -158,7 +159,6 @@ main {
 .article .profilePicture,
 main .profilePicture {
   margin-top: 30px;
-  margin-bottom: -27px;
   border-radius: 50%;
 }
 .article h1,
