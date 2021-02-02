@@ -53,7 +53,7 @@
 }
 
 html {
-	font-family: 'Eudoxus Sans', sans-serif;
+	font-family: 'Eudoxus Sans', system-ui, sans-serif;
 }
 
 * {
@@ -80,12 +80,12 @@ body {
 	flex-direction: column;
 	-webkit-box-pack: center;
 	justify-content: auto;
-	color: #f4f4f4;
+	color: #303030;
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 1.6;
 	min-height: 100vh;
-	background: #f5efeb;
+	background: #f7f3f0;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -120,7 +120,10 @@ nav {
 			.profilePicture {
 				margin-right: 30px;
 				border-radius: 50%;
+				max-width: 17vw;
+				max-height: 17vw;
 				background-color: rgb(66, 66, 66);
+				box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),0 1px 3px rgba(0, 0, 0, 0.15);			
 			}
 		}
 		
