@@ -414,6 +414,15 @@ article {
   text-align: center;
   color: white;
 }
+article .appythings {
+  justify-content: space-evenly;
+  background-color: #c4332e;
+  -webkit-box-shadow: 0 7px 19px 0 #c4332e41;
+  box-shadow: 0 7px 19px 0 #c4332e41;
+}
+article .appythings:active {
+  background-color: #9e2a27;
+}
 article .boksen {
   justify-content: space-evenly;
   background-color: #1aba43;
