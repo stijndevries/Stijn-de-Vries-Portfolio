@@ -519,7 +519,7 @@ article a .case-link {
   margin-bottom: -10px;
   font-weight: 600;
 }
-article a .myWorkWide {
+article .myWorkWide {
   width: 100%;
 }
 article:nth-of-type(odd) {

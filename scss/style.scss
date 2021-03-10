@@ -582,11 +582,12 @@ article {
 			font-weight: 600;
 		}
 
-		// For full width box
-		.myWorkWide {
-			width: 100%;
-		}
 	}
+
+// For full width box
+.myWorkWide {
+	width: 100%;
+}
 
 	&:nth-of-type(odd) {
 		margin-left: 0;
