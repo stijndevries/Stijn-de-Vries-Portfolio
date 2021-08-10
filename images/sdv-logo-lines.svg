@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="240px" viewBox="0 0 123 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-82.000000, -24.000000)" stroke="#FFFFFF" stroke-width="61">
+            <g id="Group" transform="translate(113.000000, 24.014791)">
+                <path d="M0,0 C0,57.5637771 61,60.8655533 61,119.485209 C61,178.104866 0,180.643579 0,238.970419" id="Line" transform="translate(30.500000, 119.485209) scale(-1, 1) translate(-30.500000, -119.485209) "></path>
+                <path d="M0,0 C0,57.5637771 61,60.8655533 61,119.485209 C61,178.104866 0,180.643579 0,238.970419" id="Line" stroke-opacity="0.724431818"></path>
+            </g>
+        </g>
+    </g>
+</svg>
