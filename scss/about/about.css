@@ -10,17 +10,28 @@
   margin-left: auto;
   background-color: rgba(126, 126, 126, 0.15);
   border-radius: 15px;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   overflow: hidden;
   margin-bottom: 35px;
 }
 
 .line-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .line-text {
@@ -76,5 +87,4 @@
     color: #fff;
   }
 }
-
 /*# sourceMappingURL=about.css.map */

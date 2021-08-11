@@ -707,3 +707,10 @@ li {
 ::selection {
 	background: #ff9300;
 }
+
+@media (prefers-color-scheme: dark){
+	#Line {
+		mix-blend-mode: screen;
+		}
+}
+
