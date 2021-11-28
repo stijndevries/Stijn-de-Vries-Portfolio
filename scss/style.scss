@@ -308,7 +308,9 @@ main p a {
 	&.han {
 		color: #e50056;
 	}
-
+&.tilburguni {
+		color: #CC9933;
+	}
 	&.appythings {
 		color: #d01711;
 	}
@@ -650,6 +652,9 @@ article {
 .appythings:before {
 	background-color: #d01711;
 }
+.tilburguni:before {
+	background-color: #CC9933;
+}
 .sparkle:before {
 	background-color: #b770f4;
 }
@@ -710,7 +715,7 @@ li {
 
 @media (prefers-color-scheme: dark){
 	#Line {
-		mix-blend-mode: screen;
+		mix-blend-mode: screen!important;
 		}
 }
 

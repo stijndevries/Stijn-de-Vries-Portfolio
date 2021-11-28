@@ -325,6 +325,10 @@ main p a.han {
   color: #e50056;
 }
 
+main p a.tilburguni {
+  color: #CC9933;
+}
+
 main p a.appythings {
   color: #d01711;
 }
@@ -695,6 +699,10 @@ article:nth-of-type(even) {
   background-color: #d01711;
 }
 
+.tilburguni:before {
+  background-color: #CC9933;
+}
+
 .sparkle:before {
   background-color: #b770f4;
 }
@@ -783,7 +791,7 @@ li:active {
 
 @media (prefers-color-scheme: dark) {
   #Line {
-    mix-blend-mode: screen;
+    mix-blend-mode: screen !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
