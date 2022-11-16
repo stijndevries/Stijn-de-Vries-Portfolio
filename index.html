@@ -79,29 +79,56 @@
 			<div style="max-width: 800px" id="header-box">
 				<!-- S Logo -->
 				<a itemprop="url" href="/" class="pageLogo">
-					<div itemprop="logo">
-						<picture>
+					<div itemprop="logo" style="display: flex; justify-content: flex-start; align-items: center">
+						<svg width="23px" height="45px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29 56">
+							<title>Group</title>
+							<defs>
+								<linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+									<stop offset="0%" stop-color="#FF9F4C">
+										<animate attributeName="stop-color" values="#FA6400; #FEBE00; #FA6400;" dur="2s"
+											repeatCount="indefinite"></animate>
+									</stop>
+									<stop offset="100%" stop-color="#FEBE00">
+										<animate attributeName="stop-color" values="#FA6400; #FEBE00; #FA6400;" dur="5s"
+											repeatCount="indefinite"></animate>
+									</stop>
+								</linearGradient>
+								<linearGradient id="logo-gradient2" x1="50%" y1="0%" x2="50%" y2="100%">
+									<stop offset="0%" stop-color="#FA6400">
+										<animate attributeName="stop-color" values="#FF9300; #FF5858; #FF9300;" dur="2s"
+											repeatCount="indefinite"></animate>
+									</stop>
+									<stop offset="100%" stop-color="#FEBE00">
+										<animate attributeName="stop-color"
+											values="#FF9300; rgb(244, 200, 77); #FF9300;" dur="5s"
+											repeatCount="indefinite"></animate>
+									</stop>
+								</linearGradient>
+							</defs>
+							<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Artboard" transform="translate(-18.000000, -5.000000)" stroke-width="13.9739212">
+									<g id="Group" transform="translate(25.886116, 5.501324)">
+										<path
+											d="M0,0 C0,13.1867489 13.9739212,13.9431221 13.9739212,27.3717525 C13.9739212,40.8003829 0,41.381953 0,54.743505"
+											id="Line" stroke="url('#logo-gradient')"
+											transform="translate(6.986961, 27.371752) scale(-1, -1) translate(-6.986961, -27.371752) ">
+										</path>
+										<path
+											d="M0,0 C0,13.1867489 13.9739212,13.9431221 13.9739212,27.3717525 C13.9739212,40.8003829 0,41.381953 0,54.743505"
+											id="Line" stroke="url('#logo-gradient2')" style="mix-blend-mode: multiply">
+										</path>
+									</g>
+								</g>
+							</g>
+						</svg>
+
+						<picture style="margin-left: 15px">
 							<source srcset="/images/home/Stijn-de-Vries.webp" type="image/webp" />
 							<source srcset="/images/home/Stijn-de-Vries.jpg" type="image/jpg" />
 							<img class="profilePicture" loading="eager" alt="Image of Stijn de Vries"
-								src="/images/home/Stijn-de-Vries.jpg" width="90" height="90" />
+								src="/images/home/Stijn-de-Vries.jpg" width="50" height="50" />
 						</picture>
-						<!-- <svg role="img" aria-label="Stijn de Vries Portfolio Logo" x="0px" y="0px" width="32" height="111" viewBox="0 0 70 111" style="height: 50px">
-								<defs>
-									Animated Gradient
-									<linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
-										<stop offset="0%" stop-color="#FF9F4C">
-											<animate attributeName="stop-color" values="#FF9300; #FF5858; #FF9300;" dur="2s" repeatCount="indefinite"></animate>
-										</stop>
-										<stop offset="100%" stop-color="#FF9F4C">
-											<animate attributeName="stop-color" values="#FF9300; rgb(244, 200, 77); #FF9300;" dur="5s" repeatCount="indefinite"></animate>
-										</stop>
-									</linearGradient>
-								</defs>
-								<g>
-									<path fill="url('#logo-gradient')" d="M42.1 0L42.5 0C57.5 0.2 69.5 12.4 69.5 27.5L69.5 27.5 69.5 83.4 69.5 83.8C69.3 98.8 57.1 110.8 42.1 110.8L42.1 110.8 27.5 110.8 27 110.8C12.1 110.6 0 98.4 0 83.4L0 83.4 0 27.5 0 27C0.2 12.1 12.4 0 27.5 0L27.5 0 42.1 0ZM40.6 14.5L29.1 14.5C24.3 14.5 20.6 15.7 18.1 18.2 15.6 20.8 14.3 24.4 14.3 29.2L14.3 56.2 41.4 65.1 41.4 78.8C41.4 81.5 40 82.9 37.3 82.9L32.4 82.9C29.6 82.9 28.3 81.5 28.3 78.8L28.2 69.2 14.3 65.1 14.3 81.6C14.3 86.4 15.6 90.1 18.1 92.6 20.6 95.1 24.3 96.4 29.1 96.4L40.6 96.4C45.4 96.4 49.1 95.1 51.6 92.6 54.1 90.1 55.3 86.5 55.3 81.6L55.3 55 28.3 46.2 28.3 32.1C28.3 30.8 28.6 29.8 29.3 29 30 28.3 31.1 28 32.4 28L37.3 28C40 28 41.4 29.3 41.4 32.1L41.4 41.7 55.3 46.2 55.3 29.2C55.3 24.4 54.1 20.7 51.6 18.2 49.1 15.7 45.4 14.5 40.6 14.5Z"></path>
-								</g>
-							</svg> -->
 					</div>
 				</a>
 
@@ -125,18 +152,18 @@
 		<!-- Welcome Section -->
 		<h1 class="welcome">Hi there, I'm <span itemprop="name">Stijn</span>.</h1>
 		<p class="welcomeText">
-			I'm a Communication and Information Sciences student at
+			I'm a Communication and Information Sciences master student at
 			<a href="https://www.tilburguniversity.edu" class="tilburguni" rel="noopener" target="_blank">
 				<picture>
 					<source srcset="images/home/Tilburg-University-Icon-Dark.svg" loading="eager"
-						alt="Tilburg University Logo" height="22" width="22" media="(prefers-color-scheme: dark)">
+						alt="Tilburg University Logo" height="22" width="22" media="(prefers-color-scheme: dark)" />
 					<img src="images/home/Tilburg University Icon.svg" loading="eager" alt="Tilburg University Logo"
 						height="22" width="22" />
 				</picture>
 
 				Tilburg University
 			</a>
-			while also designing and building web stuff over at
+			while also designing and building web stuff at
 			<a href="https://appythings.com" class="appythings" rel="noopener" target="_blank">
 				<svg xmlns="http://www.w3.org/2000/svg" aria-label="AppyThings Logo SVG" width="19" height="20"
 					viewBox="0 0 19 26">
@@ -145,6 +172,7 @@
 							fill: #d5361f;
 						}
 					</style>
+
 					<g fill="none">
 						<path
 							d="M15.4 6.2C15.3 8.3 15.4 9.8 15.7 10.7 16.3 12 17 12.8 17.6 14.4 17.9 15.4 18 17.2 18 19.6 16.4 18.4 15.3 17.4 14.7 16.7 14.1 16 13.2 15.1 11.9 13.9 13.3 11.3 14.2 9.3 14.6 8.1 15 6.8 15.2 6.2 15.4 6.2Z"
@@ -185,7 +213,7 @@
 					</g>
 				</svg>
 				HAN University
-			</a>, where I got a Bachelor of Science degree.
+			</a>, where I got a Bachelor of Science.
 		</p>
 		<p itemprop="description" class="welcomeText">
 			I'm a designer with experience in the Design and Marketing industry. I previously
@@ -370,7 +398,7 @@
 					height="94" width="59" />
 				<h3>Sinister Industries Logo</h3>
 				<p>
-					A logo for Sinister Industries
+					A logo for IT company Sinister Industries
 					<span>stijndv.com</span>
 				</p>
 			</a>
