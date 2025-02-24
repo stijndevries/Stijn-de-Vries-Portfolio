@@ -123,10 +123,10 @@ nav {
 				max-width: 17vw;
 				max-height: 17vw;
 				background-color: rgb(66, 66, 66);
-				box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),0 1px 3px rgba(0, 0, 0, 0.15);			
+				box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.15);
 			}
 		}
-		
+
 		#navigation {
 			text-transform: uppercase;
 			text-decoration: none;
@@ -137,7 +137,7 @@ nav {
 					color: rgba(0, 0, 0, 0.8) !important;
 				}
 			}
-			
+
 			.nav-item {
 				text-decoration: none;
 				font-weight: 600;
@@ -259,7 +259,7 @@ main {
 				display: block;
 				height: 26px;
 			}
-			
+
 			.social-text {
 				color: #ffff;
 				margin: 0;
@@ -270,8 +270,6 @@ main {
 		}
 	}
 }
-
-
 
 @media (max-width: 920px) {
 	main {
@@ -308,13 +306,15 @@ main p a {
 	&.han {
 		color: #e50056;
 	}
-&.tilburguni {
-		color: #CC9933;
+	&.tilburguni {
+		color: #cc9933;
+	}
+	&.wesp {
+		color: #cc9933;
 	}
 	&.appythings {
 		color: #d01711;
 	}
-
 	&.sparkle {
 		color: #b770f4;
 	}
@@ -360,7 +360,7 @@ p > a {
 p > a:hover:before {
 	visibility: visible;
 	-webkit-transform: scale(1);
-	transform: i scale(1);
+	transform: scale(1);
 }
 
 main p,
@@ -468,7 +468,7 @@ article {
 			background-color: #9e2a27;
 		}
 	}
-	
+
 	.boksen {
 		justify-content: space-evenly;
 		background-color: #1aba43;
@@ -583,13 +583,12 @@ article {
 			margin-bottom: -10px;
 			font-weight: 600;
 		}
-
 	}
 
-// For full width box
-.myWorkWide {
-	width: 100%;
-}
+	// For full width box
+	.myWorkWide {
+		width: 100%;
+	}
 
 	&:nth-of-type(odd) {
 		margin-left: 0;
@@ -653,7 +652,10 @@ article {
 	background-color: #d01711;
 }
 .tilburguni:before {
-	background-color: #CC9933;
+	background-color: #cc9933;
+}
+.wesp:before {
+	background-color: #0073e6;
 }
 .sparkle:before {
 	background-color: #b770f4;
@@ -713,9 +715,12 @@ li {
 	background: #ff9300;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
 	#Line {
-		mix-blend-mode: screen!important;
-		}
+		mix-blend-mode: screen !important;
+	}
 }
 
+main p a.wesp {
+	color: #0073e6;
+}

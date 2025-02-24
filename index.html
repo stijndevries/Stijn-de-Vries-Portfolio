@@ -67,6 +67,13 @@
 		</script>
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<style>
+		@media (prefers-color-scheme: dark) {
+			.wesp {
+				color: #6866D6 !important;
+			}
+		}
+	</style>
 </head>
 
 <body itemscope itemtype="http://schema.org/Person" data-instant-intensity="viewport-all">
@@ -152,7 +159,7 @@
 		<!-- Welcome Section -->
 		<h1 class="welcome">Hi there, I'm <span itemprop="name">Stijn</span>.</h1>
 		<p class="welcomeText">
-			I'm a Communication and Information Sciences master student at
+			I graduated with a Communication and Information Sciences Master's from
 			<a href="https://www.tilburguniversity.edu" class="tilburguni" rel="noopener" target="_blank">
 				<picture>
 					<source srcset="images/home/Tilburg-University-Icon-Dark.svg" loading="eager"
@@ -163,47 +170,12 @@
 
 				Tilburg University
 			</a>
-			while also designing and building web stuff at
-			<a href="https://appythings.com" class="appythings" rel="noopener" target="_blank">
-				<svg xmlns="http://www.w3.org/2000/svg" aria-label="AppyThings Logo SVG" width="19" height="20"
-					viewBox="0 0 19 26">
-					<style>
-						.a {
-							fill: #d5361f;
-						}
-					</style>
-
-					<g fill="none">
-						<path
-							d="M15.4 6.2C15.3 8.3 15.4 9.8 15.7 10.7 16.3 12 17 12.8 17.6 14.4 17.9 15.4 18 17.2 18 19.6 16.4 18.4 15.3 17.4 14.7 16.7 14.1 16 13.2 15.1 11.9 13.9 13.3 11.3 14.2 9.3 14.6 8.1 15 6.8 15.2 6.2 15.4 6.2Z"
-							fill="#B51615" />
-						<path d="M12.2 14.2C13.2 12.2 13.8 10.7 14.2 9.5 14.6 8.3 15.2 6.7 16 4.8L11.1 8.1 12.2 14.2Z"
-							fill="#A92119" />
-						<path
-							d="M19.4 21.1C19.4 21.6 18.7 22.4 17.3 23.4 16.2 24 15.3 24.6 14.5 25.3 13.8 26 12.8 26.1 11.5 25.8 11.2 21.8 11.1 19.7 11.1 19.6 11.2 17.8 11.5 15.9 12 13.9 13.6 15 14.9 16 16 17.1 17.6 18.7 19.4 20.4 19.4 21.1Z"
-							class="a" />
-						<path
-							d="M9.5 0.1C10.7 0.5 11.7 1 12.5 1.4 13.6 2 15.8 3.1 16.1 4.2 16.3 4.9 14.9 6.3 12.1 8.3 11.1 8.2 10.3 7.6 9.9 6.4 9.5 5.2 9.4 3.1 9.5 0.1Z"
-							fill="#A22E29" />
-						<path
-							d="M2.6 8.3C3.6 7.2 4.7 5.9 5.9 4.6 7.8 2.5 8.2 0.1 9.3 0.1 10.5 0.1 11.1 2.6 11.1 4 11.1 4.9 10.9 5.7 10.5 6.5L2.6 8.3Z"
-							fill="#D7413A" />
-						<path
-							d="M1.1 18.6L6.8 19.8 9.7 22.3C9 22.8 8.1 23.4 7.1 23.9 6.5 24.2 6 24.5 5.3 24.7L5.3 24.7C4.6 25.1 3.6 24.8 3.2 24 2.6 23 2.1 22.2 1.9 21.5 1.5 20.6 1.2 19.6 1.1 18.6Z"
-							fill="#D05C61" />
-						<path
-							d="M0.2 17.5C0.7 18.2 1.1 18.6 1.4 18.8 1.9 19.2 2.6 19.4 3.6 19.8 4.2 20 5.3 20.2 6.9 20.3 5.9 18.6 5.2 17.3 4.6 16.5 4.1 15.7 3.4 15 2.6 14.4 1.8 15 1.3 15.4 1 15.7 0.8 16 0.6 16.3 0.2 16.6L0.2 16.6C0 16.9 0 17.3 0.2 17.5Z"
-							class="a" />
-						<path
-							d="M5.7 24.6C8.6 25.4 10.3 25.8 10.8 25.8 11.3 25.9 11.6 25.9 11.6 25.9L11.6 25.3 9.7 22.3 5.7 24.6Z"
-							fill="#A92D2C" />
-						<path
-							d="M1.1 10.2C0.9 11.1 1.4 12.5 2.6 14.4 4.2 17 5.4 18.7 6.1 19.6 7.3 20.9 7.9 20.8 9.2 22.2 10.1 23.2 10.9 24.4 11.6 25.8 11.7 19.8 11.9 15.9 12.2 14.2 12.7 11.5 12.6 8.8 12.2 8.2 11.8 7.7 11.2 7.7 10.8 6.9 10.7 6.5 10.8 6 10.9 5.2 11 5.1 11 4.8 11.1 4.4 9.4 5.4 8.1 6.1 7.3 6.5 6 7.2 5 7.2 4 7.5 2.9 7.7 1.5 8.8 1.1 10.2Z"
-							fill="#D01711" />
-					</g>
-				</svg>
-				AppyThings </a>.<br /><br />
-			Before that, I was a Business Media Design student at
+			while now working at
+			<a href="https://mywesp.com" class="wesp" style="color: #2E3091">
+				<img src="/WESPLogo@2x.svg" loading="eager" alt="WESP logo" width="22" height="22">
+				WESP
+			</a>.<br /><br />
+			Before that, I studied Media Management and Business Media Design at
 			<a href="https://han.nl" class="han" rel="nofollow noopener noreferrer" target="_blank">
 				<!-- Embedded SVGs in the header for fewer requests -->
 				<svg xmlns="http://www.w3.org/2000/svg" aria-label="HAN-University Logo" width="26" height="26"
@@ -212,7 +184,7 @@
 						<polygon points="30 11.2 1.8 20.4 0 14.8 28.2 5.6" fill="#e50056" />
 					</g>
 				</svg>
-				HAN University
+				HAN University of Applied Sciences
 			</a>, where I got a Bachelor of Science.
 		</p>
 		<p itemprop="description" class="welcomeText">
@@ -227,9 +199,44 @@
 							style="stroke-width: 3; stroke: #a9c257" />
 					</g>
 				</svg>
-				sPitch online marketing
+				sPitch
 			</a>
-			as <span itemprop="jobTitle">Service Designer</span>.
+			and
+			<a href="https://appythings.com" class="appythings" rel="noopener" target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" aria-label="AppyThings Logo" width="22" height="22"
+					viewBox="0 0 19 26">
+					<g fill="none">
+						<path
+							d="M15.4 6.2C15.3 8.3 15.4 9.8 15.7 10.7 16.3 12 17 12.8 17.6 14.4 17.9 15.4 18 17.2 18 19.6 16.4 18.4 15.3 17.4 14.7 16.7 14.1 16 13.2 15.1 11.9 13.9 13.3 11.3 14.2 9.3 14.6 8.1 15 6.8 15.2 6.2 15.4 6.2Z"
+							fill="#f04c4c" />
+						<path d="M12.2 14.2C13.2 12.2 13.8 10.7 14.2 9.5 14.6 8.3 15.2 6.7 16 4.8L11.1 8.1 12.2 14.2Z"
+							fill="#e63939" />
+						<path
+							d="M19.4 21.1C19.4 21.6 18.7 22.4 17.3 23.4 16.2 24 15.3 24.6 14.5 25.3 13.8 26 12.8 26.1 11.5 25.8 11.2 21.8 11.1 19.7 11.1 19.6 11.2 17.8 11.5 15.9 12 13.9 13.6 15 14.9 16 16 17.1 17.6 18.7 19.4 20.4 19.4 21.1Z"
+							fill="#cc2626" />
+						<path
+							d="M9.5 0.1C10.7 0.5 11.7 1 12.5 1.4 13.6 2 15.8 3.1 16.1 4.2 16.3 4.9 14.9 6.3 12.1 8.3 11.1 8.2 10.3 7.6 9.9 6.4 9.5 5.2 9.4 3.1 9.5 0.1Z"
+							fill="#d01711" />
+						<path
+							d="M2.6 8.3C3.6 7.2 4.7 5.9 5.9 4.6 7.8 2.5 8.2 0.1 9.3 0.1 10.5 0.1 11.1 2.6 11.1 4 11.1 4.9 10.9 5.7 10.5 6.5L2.6 8.3Z"
+							fill="#b31414" />
+						<path
+							d="M1.1 18.6L6.8 19.8 9.7 22.3C9 22.8 8.1 23.4 7.1 23.9 6.5 24.2 6 24.5 5.3 24.7L5.3 24.7C4.6 25.1 3.6 24.8 3.2 24 2.6 23 2.1 22.2 1.9 21.5 1.5 20.6 1.2 19.6 1.1 18.6Z"
+							fill="#991111" />
+						<path
+							d="M0.2 17.5C0.7 18.2 1.1 18.6 1.4 18.8 1.9 19.2 2.6 19.4 3.6 19.8 4.2 20 5.3 20.2 6.9 20.3 5.9 18.6 5.2 17.3 4.6 16.5 4.1 15.7 3.4 15 2.6 14.4 1.8 15 1.3 15.4 1 15.7 0.8 16 0.6 16.3 0.2 16.6L0.2 16.6C0 16.9 0 17.3 0.2 17.5Z"
+							fill="#800d0d" />
+						<path
+							d="M5.7 24.6C8.6 25.4 10.3 25.8 10.8 25.8 11.3 25.9 11.6 25.9 11.6 25.9L11.6 25.3 9.7 22.3 5.7 24.6Z"
+							fill="#991111" />
+						<path
+							d="M1.1 10.2C0.9 11.1 1.4 12.5 2.6 14.4 4.2 17 5.4 18.7 6.1 19.6 7.3 20.9 7.9 20.8 9.2 22.2 10.1 23.2 10.9 24.4 11.6 25.8 11.7 19.8 11.9 15.9 12.2 14.2 12.7 11.5 12.6 8.8 12.2 8.2 11.8 7.7 11.2 7.7 10.8 6.9 10.7 6.5 10.8 6 10.9 5.2 11 5.1 11 4.8 11.1 4.4 9.4 5.4 8.1 6.1 7.3 6.5 6 7.2 5 7.2 4 7.5 2.9 7.7 1.5 8.8 1.1 10.2Z"
+							fill="#b31414" />
+					</g>
+				</svg>
+				AppyThings
+			</a>,
+			where I worked as a Service Designer.
 		</p>
 
 		<!-- Contact List -->
@@ -248,29 +255,11 @@
 
 			<li class="twitter">
 				<a href="https://twitter.com/stijndv" rel="nofollow noopener" target="_blank">
-					<svg xmlns="http://www.w3.org/2000/svg" aria-label="Twitter logo" width="26" height="26"
-						viewbox="0 0 101 101">
-						<g fill="none">
-							<path
-								d="M31.9 91.8C69.9 91.8 90.9 59.9 90.9 32.9L90.9 30C94.9 27.2 98.2 23.6 101 19.1 97 21.1 92.9 22 88.9 22.8 93.3 19.9 97 15.9 98.2 11 94.1 13.5 89.7 15.1 85.2 16.3 79 9.1 68.6 7.1 60.1 11.5 51.6 15.9 47.3 25.6 49.7 34.9 33.1 34.1 17.4 26.4 6.9 13.5 1.4 22.9 4.3 34.9 13.3 40.9 10.1 40.9 6.9 40.1 4 38.5 4 48.6 10.9 57.1 20.6 58.7 17.8 59.9 14.5 59.9 11.3 59.5 14.1 67.6 21.8 73.7 30.7 73.7 22.1 80.6 11 83.8 0 82.6 9.3 88.6 20.2 91.8 31.9 91.8"
-								fill="#FFF" />
-						</g>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+						<path
+							d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
 					</svg>
-					<p class="social-text">Twitter</p>
-				</a>
-			</li>
-
-			<li class="dribbble">
-				<a href="https://dribbble.com/StijnDV" rel="nofollow noopener" target="_blank">
-					<svg xmlns="http://www.w3.org/2000/svg" aria-label="Dribbble logo" width="26" height="26"
-						viewbox="0 0 101 101">
-						<g fill="none">
-							<path
-								d="M0.5 50.5C0.5 41.4 2.7 33.1 7.2 25.4 11.7 17.7 17.7 11.7 25.4 7.2 33.1 2.7 41.4 0.5 50.5 0.5 59.6 0.5 67.9 2.7 75.6 7.2 83.3 11.7 89.3 17.7 93.8 25.4 98.3 33.1 100.5 41.4 100.5 50.5 100.5 59.6 98.3 67.9 93.8 75.6 89.3 83.3 83.3 89.3 75.6 93.8 67.9 98.3 59.6 100.5 50.5 100.5 41.4 100.5 33.1 98.3 25.4 93.8 17.7 89.3 11.7 83.3 7.2 75.6 2.7 67.9 0.5 59.6 0.5 50.5ZM8.8 50.5C8.8 60.9 12.3 70.1 19.3 78 22.5 71.7 27.6 65.8 34.5 60.1 41.4 54.4 48.2 50.9 54.8 49.4 53.8 47.1 52.8 45 51.9 43.1 40.4 46.8 28 48.6 14.7 48.6 12.1 48.6 10.2 48.6 8.9 48.5 8.9 48.8 8.9 49.1 8.9 49.5 8.8 49.9 8.8 50.2 8.8 50.5ZM10.1 40.2C11.6 40.3 13.7 40.4 16.6 40.4 27.7 40.4 38.3 38.9 48.3 35.9 43.2 26.9 37.7 19.4 31.6 13.4 26.3 16.1 21.8 19.8 18.1 24.5 14.3 29.2 11.6 34.5 10.1 40.2ZM25 83.4C32.5 89.3 41 92.2 50.5 92.2 55.4 92.2 60.3 91.3 65.2 89.4 63.9 78 61.3 67 57.4 56.3 51.3 57.6 45.1 61 38.9 66.4 32.6 71.8 28 77.5 25 83.4ZM40.3 10.2C46.2 16.3 51.6 23.8 56.6 32.9 65.7 29.1 72.5 24.3 77.1 18.4 69.4 12 60.5 8.8 50.5 8.8 47.1 8.8 43.7 9.3 40.3 10.2ZM60.2 40C61.2 42.1 62.3 44.8 63.6 48.1 68.5 47.6 73.9 47.4 79.7 47.4 83.8 47.4 87.9 47.5 92 47.7 91.5 38.6 88.2 30.6 82.2 23.5 77.9 30 70.5 35.5 60.2 40ZM66.1 55.1C69.5 65 71.8 75.1 73 85.5 78.3 82.1 82.6 77.7 85.9 72.4 89.2 67.1 91.2 61.3 91.9 55.1 87 54.8 82.6 54.6 78.6 54.6 74.9 54.6 70.8 54.8 66.1 55.1Z"
-								fill="#FFF" />
-						</g>
-					</svg>
-					<p class="social-text">Dribbble</p>
+					<p class="social-text"></p>
 				</a>
 			</li>
 
@@ -382,17 +371,6 @@
 			</a>
 		</article>
 		<article class="myWork">
-			<a class="ah">
-				<img src="images/ah-to-go-logo.svg" loading="auto" alt="AH to go logo redesign" height="90"
-					width="210" />
-				<h3>AH to go Logo</h3>
-				<p>
-					Fictional redesign of the AH to go logo
-					<span> </span>
-				</p>
-			</a>
-		</article>
-		<article class="myWorkWide" style="width: 100%">
 			<a class="sinister">
 				<img src="images/sinister-industries-logo.svg" loading="auto" alt="Sinister Industries monogram"
 					height="94" width="59" />
@@ -415,7 +393,8 @@
 
 	<!-- For privacy friendly analytics -->
 	<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
-		data-cf-beacon='{"token": "ff8fd4af248c4421a7dfbc854641824a"}'></script>
+		data-cf-beacon='{"token": "ff8fd4af248c4421a7dfbc854641824a"}'>
+		</script>
 
 	<script>
 		window.ga_tid = 'UA-144742746-1';
