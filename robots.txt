@@ -1,4 +1,22 @@
 User-agent: *
 Disallow:
 
+User-Agent: amazon-kendra-
+Disallow: /
+
+User-Agent: Amazonbot
+Disallow: /
+
+User-Agent: GoogleOther
+Disallow: /
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: meta-externalagent
+Disallow: /
+
+User-Agent: PetalBot
+Disallow: /
+
 Sitemap: https://stijndv.com/sitemap.xml
