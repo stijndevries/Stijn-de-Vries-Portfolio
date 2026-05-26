@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="beeldmerk_x2C__blauw" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop_3);
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_3" data-name="Naamloos verloop 3" x1="108.95" y1="391.06" x2="391.05" y2="108.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07c8f9"/>
+      <stop offset="1" stop-color="#0d41e1"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M267.58,126.46v40.59l-80.63,46.55v93.11s-35.16,20.29-35.16,20.29v-133.7l115.79-66.84ZM232.42,239.86v40.6l35.16-20.29v-40.6l-35.16,20.29ZM428.85,146.76v206.51s-178.86,103.25-178.86,103.25l-178.84-103.26v-206.51S250,43.48,250,43.48l178.85,103.28ZM393.69,167.04l-63.06-36.4-17.58,10.3v-20.44l-63.06-36.41-143.7,82.95v165.92s63.06,36.41,63.06,36.41l17.57-10.3v20.44l63.05,36.41,143.7-82.95v-165.92ZM313.06,193.31v93.11l-80.64,46.55v40.6l115.79-66.85v-133.69s-35.15,20.29-35.15,20.29Z"/>
+</svg>

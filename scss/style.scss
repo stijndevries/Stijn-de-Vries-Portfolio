@@ -243,9 +243,9 @@ main {
 			}
 
 			&.linkedin a {
-				background: #0073b1;
-				-webkit-box-shadow: 0 3px 9px 0 rgba(0, 115, 177, 0.23);
-				box-shadow: 0 3px 9px 0 rgba(0, 115, 177, 0.23);
+				background: rgb(10, 102, 194);
+				-webkit-box-shadow: 0 3px 9px 0 rgba(10, 102, 194, 0.23);
+				box-shadow: 0 3px 9px 0 rgba(10, 102, 194, 0.23);
 
 				&:active {
 					background: #005c8e;
@@ -310,7 +310,10 @@ main p a {
 		color: #cc9933;
 	}
 	&.wesp {
-		color: #cc9933;
+		color: #2c44a6;
+	}
+	&.hixton {
+		color: #0f5be8;
 	}
 	&.appythings {
 		color: #d01711;
@@ -655,7 +658,10 @@ article {
 	background-color: #cc9933;
 }
 .wesp:before {
-	background-color: #0073e6;
+	background-color: #2c44a6;
+}
+.hixton:before {
+	background: linear-gradient(135deg, #07c8f9 0%, #0f5be8 100%);
 }
 .sparkle:before {
 	background-color: #b770f4;
@@ -722,5 +728,9 @@ li {
 }
 
 main p a.wesp {
-	color: #0073e6;
+	color: #2c44a6;
+}
+
+main p a.hixton {
+	color: #0f5be8;
 }
